@@ -1,10 +1,12 @@
-package main.java;
+package main.java103;
 
 import java.util.Scanner; // Scanner находится в пакете java.util
 
-public class ComputeAverage {
+import static java.lang.Math.cbrt;
+
+public class ComputeAverageGeo {
     public static void main(String[] args) {
-        double number1, number2, number3, average; // объявление переменных
+        double number1, number2, number3, num, average; // объявление переменных
 
         Scanner input = new Scanner(System.in); // создание объекта типа Scanner
 
@@ -17,11 +19,10 @@ public class ComputeAverage {
         System.out.println("Введите третье число: ");
         number3 = input.nextDouble();
 
-        // Вычислить среднее арифметическое трех чисел
-        average = (number1 + number2 + number3) / 3;
+        average = cbrt(number1 * number2 * number3); // формула среднегеометрического корня используя метод Math.cbrt
 
-        // Отобразить среднее арифметическое трех чисел
-        System.out.println("Среднее арифметическое " + number1 + " " + number2
+        // Отобразить среднее геометрическое трех чисел
+        System.out.println("Среднее геометрическое " + number1 + " " + number2
                 + " " + number3 + " равно " + average + ".");
     }
 }

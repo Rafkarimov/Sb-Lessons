@@ -1,4 +1,4 @@
-package main.java;
+package main.java102;
 
 public class ComputeArea {
     public static void main(String[] args) {

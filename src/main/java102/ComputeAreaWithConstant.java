@@ -1,4 +1,4 @@
-package main.java;
+package main.java102;
 
 import java.util.Scanner; // класс Scanner находится в пакете java.util package
 

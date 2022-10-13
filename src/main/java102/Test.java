@@ -1,4 +1,4 @@
-package main.java;
+package main.java102;
 
 public class Test {
     public static void main(String[] args) {
