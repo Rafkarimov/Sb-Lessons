@@ -9,3 +9,35 @@ K
 src/main/java102/Test4.java,9\b\9bbbc4d02552b862deae8abd2723fde861450e0d
 K
 src/main/java102/Test5.java,f\4\f4d46a7ef3c019930c2729663a4d0326a1498c95
+Y
+)src/main/java103/FahrenheitToCelsius.java,5\b\5b16ebb82f055a7ccba6c62bfe6f2d0c6287d8ae
+U
+%src/main/java103/ShowCurrentTime.java,3\e\3ed6fb6114489e0a5b221f0baa02d26cd04292af
+Y
+)src/main/java103/ShowCurrentTimeGtm3.java,1\5\157558f082c61cef8ab0d4bf0b0892b704dcb6db
+9
+	Questions,9\a\9a1fc1731f624d1f9dbca42b781ff8a60a6594e1
+Q
+!src/main/java103/DisplayTime.java,d\1\d1b4e4a828b6cbe15bc6fbe8a89e4f1c9d0470fd
+]
+-src/main/java102/ComputeAreaWithConstant.java,9\3\935e65dd07b5758ef55364f11db2318fbcf4099b
+a
+1src/main/java102/ComputeAreaWithConsoleInput.java,7\9\798c185682a7533d2eba922d040fbb39d97f3f75
+Q
+!src/main/java102/ComputeArea.java,0\a\0a5ded6b21b8573a8d8afc9a7a99d2373089352a
+Y
+)src/main/java103/CelsiusToFahrenheit.java,d\b\dbb3996ecf26b6d63e17fc6de474fc9fec7c14cb
+W
+'src/main/java103/ComputeAverageGeo.java,8\b\8b2dd06aef487bd7c973afb9962b4b89accb7528
+T
+$src/main/java102/ComputeAverage.java,9\d\9d9d06c06a1f8b13bfc9de80f2dc2026ac80fef7
+S
+#src/main/java103/ConvertAmount.java,e\6\e660947485242ce2ac13c3eec2a1d8146db6c924
+O
+src/main/java103/FareMeter.java,b\e\beac39bcc6d23285e583a716a4a579eaf475604d
+P
+ src/main/java20221014/Task1.java,5\e\5ee64c495429bdca4f857d5b63f4eb9e007c45e6
+P
+ src/main/java20221014/Task2.java,a\3\a363877b5423b7e96093a14bbe5cd2b964250a2f
+P
+ src/main/java20221014/Task3.java,2\2\22d34ba9cb2dbcbd16e476eac3edecbe2a5a9b9c
