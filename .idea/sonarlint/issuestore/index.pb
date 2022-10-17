@@ -15,8 +15,6 @@ U
 %src/main/java103/ShowCurrentTime.java,3\e\3ed6fb6114489e0a5b221f0baa02d26cd04292af
 Y
 )src/main/java103/ShowCurrentTimeGtm3.java,1\5\157558f082c61cef8ab0d4bf0b0892b704dcb6db
-9
-	Questions,9\a\9a1fc1731f624d1f9dbca42b781ff8a60a6594e1
 Q
 !src/main/java103/DisplayTime.java,d\1\d1b4e4a828b6cbe15bc6fbe8a89e4f1c9d0470fd
 ]
@@ -41,3 +39,15 @@ P
  src/main/java20221014/Task2.java,a\3\a363877b5423b7e96093a14bbe5cd2b964250a2f
 P
  src/main/java20221014/Task3.java,2\2\22d34ba9cb2dbcbd16e476eac3edecbe2a5a9b9c
+P
+ src/main/java20221014/Task4.java,2\6\26dcb75cdd75fd82ea651bdbf5db598da74e8927
+P
+ src/main/java20221014/Task5.java,0\9\099f59e1a7fb2e54572ff712ca8b35c7759e6481
+P
+ src/main/java20221014/Task6.java,0\1\010b602642de0e745bd6e6857b4d248b23370459
+P
+ src/main/java20221014/Task7.java,d\b\db638cc07e702117a5c499cfade36137174d609d
+P
+ src/main/java20221014/Task8.java,6\3\636c6a3d7c29690e8886a1cf9a4e7e89fa072e4b
+P
+ src/main/java20221014/Task9.java,b\b\bb1647765a3191ffe41ab16330688c76534424a0
