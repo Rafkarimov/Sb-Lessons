@@ -51,3 +51,11 @@ P
  src/main/java20221014/Task8.java,6\3\636c6a3d7c29690e8886a1cf9a4e7e89fa072e4b
 P
  src/main/java20221014/Task9.java,b\b\bb1647765a3191ffe41ab16330688c76534424a0
+Q
+!src/main/java103/ComputeLoan.java,f\b\fb3409f85aa8a18732e15f06d47be5662c034d6e
+Q
+!src/main/java20221014/Task10.java,1\c\1c313cbebfe369bf7981a87ef88e1950da34bc59
+U
+%src/main/java103/ComputeExchange.java,c\7\c7f81e44f4562cfc3007f3256ff612af900d2dde
+N
+src/main/java103/SalesTax.java,1\d\1d7e311c55ebf58eb2d763fa3284bf6fea4fd5aa
