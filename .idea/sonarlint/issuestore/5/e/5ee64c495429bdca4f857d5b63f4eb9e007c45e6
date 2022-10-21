@@ -1,0 +1,9 @@
+
+
+java:S4165"_Remove this useless assignment; "c" already holds the assigned value along all execution paths.(¦‚âüÿÿÿÿ8¼ËÀº½0
+W
+java:S1854"5Remove this useless assignment to local variable "c".(¦‚âüÿÿÿÿ8åàÀº½0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¦äÙ°
+Q
+java:S1656"/Remove or correct this useless self-assignment.(¦‚âüÿÿÿÿ8ÕËÀº½0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¦äÙ°8å¤·º½0
