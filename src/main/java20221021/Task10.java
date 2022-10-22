@@ -27,7 +27,7 @@ public class Task10 {
         if ((str1.charAt(0) >= 'a' && str1.charAt(0) <= 'z') || (str1.charAt(0) >= 'A' && str1.charAt(0) <= 'Z')) {
             result += str1;
         }
-        if (Character.isDigit(str2.charAt(0))) {
+        if ((str2.charAt(0) >= 'a' && str2.charAt(0) <= 'z') || (str2.charAt(0) >= 'A' && str2.charAt(0) <= 'Z')) {
             result += str2;
         }
 
@@ -58,6 +58,7 @@ public class Task10 {
         if ((str9.charAt(0) >= 'a' && str9.charAt(0) <= 'z') || (str9.charAt(0) >= 'A' && str9.charAt(0) <= 'Z')) {
             result += str9;
         }
+        System.out.println(result);
 
     }
 }
