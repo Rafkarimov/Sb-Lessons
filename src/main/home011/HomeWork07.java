@@ -1,4 +1,4 @@
-package main.home01;
+package main.home011;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ b = 10 / 10 = 1
 
 
  */
-public class homeWork07 {
+public class HomeWork07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

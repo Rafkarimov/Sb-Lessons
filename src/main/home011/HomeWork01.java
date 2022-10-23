@@ -1,8 +1,8 @@
-package main.home01;
+package main.home011;
 
 import java.util.Scanner;
 
-public class homeWork01 {
+public class HomeWork01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int r = sc.nextInt();

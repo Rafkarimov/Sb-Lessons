@@ -1,4 +1,4 @@
-package main.home01;
+package main.home011;
 /*
 На вход подается количество секунд, прошедших с начала текущего дня – count.
 Выведите в консоль текущее время в формате: часы и минуты
@@ -9,7 +9,7 @@ package main.home01;
  */
 import java.util.Scanner;
 
-public class homeWork04 {
+public class HomeWork04 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

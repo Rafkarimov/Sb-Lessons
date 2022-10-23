@@ -1,4 +1,4 @@
-package main.home01;
+package main.home011;
 /*
 Переведите дюймы в сантиметры (1 дюйм = 2,54 сантиметров). На вход
 подается количество дюймов, выведите количество сантиметров.
@@ -9,7 +9,7 @@ package main.home01;
  */
 import java.util.Scanner;
 
-public class homeWork05 {
+public class HomeWork05 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

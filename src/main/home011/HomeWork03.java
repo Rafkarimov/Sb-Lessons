@@ -1,4 +1,4 @@
-package main.home01;
+package main.home011;
 /*
 Прочитайте из консоли имя пользователя и выведите в консоль строку:
 Привет, <имя пользователя>!
@@ -12,7 +12,7 @@ package main.home01;
  */
 import java.util.Scanner;
 
-public class homeWork03 {
+public class HomeWork03 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

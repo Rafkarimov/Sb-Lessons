@@ -1,4 +1,4 @@
-package main.home01;
+package main.home011;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ import java.util.Scanner;
 Выходные данные:
 4.349609156548647 88.85630134092237
  */
-public class homeWork06 {
+public class HomeWork06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
