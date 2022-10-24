@@ -23,6 +23,6 @@ public class HomeWork07 {
         int a = n % 10;
         int b = n / 10;
 
-        System.out.println(String.format("%02d", a*10+b));
+        System.out.printf("%02d%n", a*10+b);
     }
 }
