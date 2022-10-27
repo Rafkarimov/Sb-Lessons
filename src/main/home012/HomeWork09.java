@@ -17,19 +17,17 @@ import java.util.Scanner;
 true
 true
 true
+
+
  */
 public class HomeWork09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double x = scanner.nextInt();
 
-        double sin = Math.sin(x);
-        double cos = Math.cos(x);
+        double sin = (1 - Math.cos(2 * x)) / 2;
+        double cos = (1 + Math.cos(2 * x)) / 2;
 
-        if (sin * sin + cos * cos - 1 == 0) {
-            System.out.println(true);
-        } else {
-            System.out.println(true);
-        }
+        System.out.println(sin + cos - 1 == 0);
     }
 }

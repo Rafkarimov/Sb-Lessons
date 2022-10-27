@@ -24,13 +24,30 @@ public class HomeWork12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String password = scanner.nextLine();
-        String count = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[_*-])(?=\\S+$).{0,8}$";
+        String str1 = "_*-";
+        String str2 = "A-Z";
+        String str3 = "a-z";
+        String str4 = "0-9";
 
-        if (count == password) {
-            System.out.println("пароль надежный");
-        } else {
-            System.out.println("пароль не прошел проверку");
+        for (int i = 0; i < password.length(); i++) {
+            char c = password.charAt(i);
         }
+
+        if (str1.matches(password)) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+
+
+
+//        String count = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[_*-])(?=\\S+$).{0,8}$";
+//
+//        if (count == password) {
+//            System.out.println("пароль надежный");
+//        } else {
+//            System.out.println("пароль не прошел проверку");
+//        }
 
 //
 //        if (password.length() >= 8) {

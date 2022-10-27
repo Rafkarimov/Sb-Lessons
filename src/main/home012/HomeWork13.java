@@ -40,19 +40,30 @@ public class HomeWork13 {
         String s1 = "камни!";
         String s2 = "запрещенная продукция";
 
-
         if (mailPackage.contains(s1) && mailPackage.contains(s2)) {
             System.out.println("в посылке камни и запрещенная продукция");
+        } else if (mailPackage.contains(s1)) {
+            System.out.println("камни в посылке");
+        } else if (mailPackage.contains(s2)) {
+            System.out.println("в посылке запрещенная продукция");
         } else {
-            if (mailPackage.contains(s1)) {
-                System.out.println("камни в посылке");
-            } else {
-                if (mailPackage.contains(s2)) {
-                    System.out.println("в посылке запрещенная продукция");
-                } else {
-                    System.out.println("все ок");
-                }
-            }
+            System.out.println("все ок");
         }
     }
 }
+
+
+//        if (mailPackage.contains(s1) && mailPackage.contains(s2)) {
+//            System.out.println("в посылке камни и запрещенная продукция");
+//        } else {
+//            if (mailPackage.contains(s1)) {
+//                System.out.println("камни в посылке");
+//            } else {
+//                if (mailPackage.contains(s2)) {
+//                    System.out.println("в посылке запрещенная продукция");
+//                } else {
+//                    System.out.println("все ок");
+//                }
+//            }
+//        }
+
