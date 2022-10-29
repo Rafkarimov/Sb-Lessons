@@ -1,0 +1,20 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(ŞØ°øÿÿÿÿ
+D
+java:S1481")Remove this unused "str2" local variable.(‡¾Ò–ÿÿÿÿÿ
+?
+java:S1481")Remove this unused "str3" local variable.(îßĞ»
+?
+java:S1481")Remove this unused "str4" local variable.(š™¦ƒ
+H
+java:S1481!"&Remove this unused "c" local variable.(†¬³úÿÿÿÿ8Àõ’€Á0
+_
+java:S1126$"BReplace this if-then-else statement by a single method invocation.(›ü8Áõ’€Á0
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ı·‡‘øÿÿÿÿ8Ãõ’€Á0
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ûãÁùùÿÿÿÿ8×õ’€Á0
+Q	java:S125,"<This block of commented-out lines of code should be removed.(©³ıƒ
+Q	java:S1255"<This block of commented-out lines of code should be removed.(çØÓ‡
+V	java:S125D"<This block of commented-out lines of code should be removed.(è˜Ã…ùÿÿÿÿ
+V	java:S125N"<This block of commented-out lines of code should be removed.(şÀÇÂıÿÿÿÿ
+V	java:S125c"<This block of commented-out lines of code should be removed.(Çò®Æüÿÿÿÿ
+R	java:S125€"<This block of commented-out lines of code should be removed.(Æ«àé
