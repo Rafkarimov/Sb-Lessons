@@ -39,14 +39,6 @@ P
  src/main/home011/HomeWork08.java,6\6\66e16aa94d23950ded9f39a829f13dccbee43293
 P
  src/main/home011/HomeWork09.java,0\1\016c5eff94ecd13b54c2f8c6bc9ae3ef2181de19
-P
- src/main/home012/HomeWork03.java,a\e\aea409cb3e03e1372a563dcaf50188557e71b253
-P
- src/main/home012/HomeWork04.java,6\d\6d1fa915d012d2ecdc8aebc284fcbfffee51773b
-P
- src/main/home012/HomeWork06.java,9\6\96b29dc4602f3c0a8a3a52b7ab44f991dc6ddfde
-P
- src/main/home012/HomeWork07.java,4\8\480f32268a55cef19cbc6f91c0f41ed6b566a55a
 Q
 !src/main/java102/ComputeArea.java,0\a\0a5ded6b21b8573a8d8afc9a7a99d2373089352a
 P
@@ -54,21 +46,11 @@ P
 P
  src/main/home012/HomeWork11.java,5\7\5742e1510fdcfdf85b2fe71627df7ea88840eb8f
 P
- src/main/home012/HomeWork01.java,f\8\f858f71eec27b93566d2201ec51ab3d06333156a
-P
  src/main/home012/HomeWork08.java,3\3\335e2b06a403b8d657eb2ccb285357a8c155dd7c
-P
- src/main/home012/HomeWork05.java,7\2\72aa3c3f75130049e8a0a38963683b91598757f2
 P
  src/main/home011/HomeWork05.java,f\9\f9f4a693cdb68b6b4ac64079f9673f1d823449fc
 P
- src/main/home012/HomeWork14.java,c\2\c2ae0d2108098cc41bbc4b1d6dc207df7523c7f3
-P
- src/main/home012/HomeWork02.java,3\8\38f4dea55d93d027eb9e0ee1d0d8142182e6b339
-P
  src/main/home012/HomeWork09.java,d\b\db74fdf0da4ef03b0afc5d39cf37f5f73d76b055
-P
- src/main/home012/HomeWork12.java,a\7\a75cf56813ec3dc177d25b9b2a832035228e347d
 P
  src/main/home012/HomeWork13.java,4\a\4a38df0769db0933fd9fba3aff1ceef2616a74c9
 I
