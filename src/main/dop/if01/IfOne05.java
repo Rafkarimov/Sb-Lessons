@@ -1,4 +1,4 @@
-package main.dop;
+package main.dop.if01;
 
 import java.util.Scanner;
 

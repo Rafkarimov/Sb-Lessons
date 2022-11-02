@@ -24,34 +24,89 @@ Q
 Q
 !src/main/java20221021/Task02.java,e\b\eb48afd4e073edbea5aaa2977b1d912dca0295cb
 P
- src/main/home011/HomeWork01.java,3\e\3eef5a7193b40b8f151c3adda835a35098d21407
-P
  src/main/home011/Homework02.java,d\5\d5de551993193cb573228fca22add8141c6f8bfa
 P
  src/main/home011/HomeWork03.java,2\6\267e71770cb1d4aa221fc73a42cd097cd6abab37
 P
  src/main/home011/HomeWork04.java,b\f\bf490755832fbe2b9d6b3b6b224d5f22e28ea29c
-P
- src/main/home011/HomeWork06.java,9\d\9de59dd75729223437580b226279470f1e251ce2
-P
- src/main/home011/HomeWork07.java,9\1\91a23b55b9b7143c45af4a9c86559a80cb013ae6
-P
- src/main/home011/HomeWork08.java,6\6\66e16aa94d23950ded9f39a829f13dccbee43293
-P
- src/main/home011/HomeWork09.java,0\1\016c5eff94ecd13b54c2f8c6bc9ae3ef2181de19
 Q
 !src/main/java102/ComputeArea.java,0\a\0a5ded6b21b8573a8d8afc9a7a99d2373089352a
 P
- src/main/home012/HomeWork10.java,b\8\b837035dedcc99c566cb550d33979632d2ba76eb
-P
  src/main/home012/HomeWork11.java,5\7\5742e1510fdcfdf85b2fe71627df7ea88840eb8f
+I
+src/main/dop/IfOne01.java,6\5\65e67f872ea817ba507462e9349fc91373ff455b
+Y
+)src/main/java103/CelsiusToFahrenheit.java,d\b\dbb3996ecf26b6d63e17fc6de474fc9fec7c14cb
+W
+'src/main/java103/ComputeAverageGeo.java,8\b\8b2dd06aef487bd7c973afb9962b4b89accb7528
+U
+%src/main/java103/ComputeExchange.java,c\7\c7f81e44f4562cfc3007f3256ff612af900d2dde
+X
+(src/main/java20221028/regexp/Task01.java,3\e\3e752d3fff5653b9ee1849b518f7a7123aa5fa18
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+P
+ src/main/home013/HomeWork01.java,1\b\1b90cf6df3aebd4fbe4bc9f340acfea0beb21452
+S
+#src/main/dop/StringBuilderTest.java,4\f\4fa552130c626759d75e8640c0496b7ee5c4ab70
+P
+ src/main/home013/HomeWork10.java,1\d\1d65ece1f3695af71dce55bec4b6936c08275161
+H
+src/main/dop/Test01.java,f\0\f02649d981a3b96743dcbabd60e4f8ad35847966
+Y
+)src/main/java20221028/BasicKnowledge.java,f\e\fe768975b9100e67cb84c0a08fa6701d5e0d2375
+O
+src/main/dop/ChristmasTree.java,c\f\cf42df7dc49bff5b32a90956586e3cb7fbb9773d
+P
+ src/main/home012/HomeWork01.java,f\8\f858f71eec27b93566d2201ec51ab3d06333156a
+P
+ src/main/home012/HomeWork02.java,3\8\38f4dea55d93d027eb9e0ee1d0d8142182e6b339
+P
+ src/main/home012/HomeWork03.java,a\e\aea409cb3e03e1372a563dcaf50188557e71b253
+P
+ src/main/home012/HomeWork04.java,6\d\6d1fa915d012d2ecdc8aebc284fcbfffee51773b
+P
+ src/main/home012/HomeWork05.java,7\2\72aa3c3f75130049e8a0a38963683b91598757f2
+P
+ src/main/home012/HomeWork06.java,9\6\96b29dc4602f3c0a8a3a52b7ab44f991dc6ddfde
+P
+ src/main/home012/HomeWork07.java,4\8\480f32268a55cef19cbc6f91c0f41ed6b566a55a
 P
  src/main/home012/HomeWork08.java,3\3\335e2b06a403b8d657eb2ccb285357a8c155dd7c
 P
- src/main/home011/HomeWork05.java,f\9\f9f4a693cdb68b6b4ac64079f9673f1d823449fc
-P
  src/main/home012/HomeWork09.java,d\b\db74fdf0da4ef03b0afc5d39cf37f5f73d76b055
 P
+ src/main/home012/HomeWork10.java,b\8\b837035dedcc99c566cb550d33979632d2ba76eb
+P
+ src/main/home011/HomeWork01.java,3\e\3eef5a7193b40b8f151c3adda835a35098d21407
+P
+ src/main/home011/HomeWork09.java,0\1\016c5eff94ecd13b54c2f8c6bc9ae3ef2181de19
+P
+ src/main/home011/HomeWork08.java,6\6\66e16aa94d23950ded9f39a829f13dccbee43293
+P
+ src/main/home011/HomeWork07.java,9\1\91a23b55b9b7143c45af4a9c86559a80cb013ae6
+P
+ src/main/home011/HomeWork06.java,9\d\9de59dd75729223437580b226279470f1e251ce2
+P
+ src/main/home011/HomeWork05.java,f\9\f9f4a693cdb68b6b4ac64079f9673f1d823449fc
+P
+ src/main/home012/HomeWork14.java,c\2\c2ae0d2108098cc41bbc4b1d6dc207df7523c7f3
+P
  src/main/home012/HomeWork13.java,4\a\4a38df0769db0933fd9fba3aff1ceef2616a74c9
-I
-src/main/dop/IfOne01.java,6\5\65e67f872ea817ba507462e9349fc91373ff455b
+P
+ src/main/home012/HomeWork12.java,a\7\a75cf56813ec3dc177d25b9b2a832035228e347d
+P
+ src/main/home013/HomeWork08.java,1\4\14668e36f188bf17f748ed5b6e961a726a19a864
+P
+ src/main/home013/HomeWork07.java,1\c\1c60080527cceb42aacb0ea193c01d381c2b53cb
+P
+ src/main/home013/HomeWork06.java,e\c\eca6e24fd12d2bfaaee11ba03a0d3622e7748f57
+P
+ src/main/home013/HomeWork05.java,a\f\afa8af04f047cb14b350d58b4520efde132d56fc
+P
+ src/main/home013/HomeWork04.java,c\1\c112758359f271769eb2f08ce968b7f0da9c19f7
+P
+ src/main/home013/HomeWork03.java,c\7\c74b2c990fdfbfb7d515a246ed69bacd0cc2db7b
+P
+ src/main/home013/HomeWork02.java,a\9\a9a7daa060cdca67869c6064e98810e95bcb775e

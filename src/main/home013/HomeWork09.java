@@ -20,18 +20,26 @@ import java.util.Scanner;
 public class HomeWork09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String str = scanner.nextLine();
-        String[] array = str.split("\\s");
-        int count = 0;
-
-        for (String s : array) {
-            int num = Integer.parseInt(s);
-            if (num < 0) {
-                count++;
-            } else {
+        int n=0;
+        while (n<1000) {
+            int a = scanner.nextInt();
+            if (a>=0)
                 break;
-            }
+            n++;
         }
-        System.out.println(count);
+        System.out.println(n);
+//        String str = scanner.nextLine();
+//        String[] array = str.split("\\s");
+//        int count = 0;
+//
+//        for (String s : array) {
+//            int num = Integer.parseInt(s);
+//            if (num < 0) {
+//                count++;
+//            } else {
+//                break;
+//            }
+//        }
+//        System.out.println(count);
     }
 }
