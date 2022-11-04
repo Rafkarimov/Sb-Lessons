@@ -33,8 +33,6 @@ Q
 !src/main/java102/ComputeArea.java,0\a\0a5ded6b21b8573a8d8afc9a7a99d2373089352a
 P
  src/main/home012/HomeWork11.java,5\7\5742e1510fdcfdf85b2fe71627df7ea88840eb8f
-I
-src/main/dop/IfOne01.java,6\5\65e67f872ea817ba507462e9349fc91373ff455b
 Y
 )src/main/java103/CelsiusToFahrenheit.java,d\b\dbb3996ecf26b6d63e17fc6de474fc9fec7c14cb
 W
@@ -48,16 +46,10 @@ X
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 P
  src/main/home013/HomeWork01.java,1\b\1b90cf6df3aebd4fbe4bc9f340acfea0beb21452
-S
-#src/main/dop/StringBuilderTest.java,4\f\4fa552130c626759d75e8640c0496b7ee5c4ab70
 P
  src/main/home013/HomeWork10.java,1\d\1d65ece1f3695af71dce55bec4b6936c08275161
-H
-src/main/dop/Test01.java,f\0\f02649d981a3b96743dcbabd60e4f8ad35847966
 Y
 )src/main/java20221028/BasicKnowledge.java,f\e\fe768975b9100e67cb84c0a08fa6701d5e0d2375
-O
-src/main/dop/ChristmasTree.java,c\f\cf42df7dc49bff5b32a90956586e3cb7fbb9773d
 P
  src/main/home012/HomeWork01.java,f\8\f858f71eec27b93566d2201ec51ab3d06333156a
 P
@@ -95,8 +87,6 @@ P
 P
  src/main/home012/HomeWork13.java,4\a\4a38df0769db0933fd9fba3aff1ceef2616a74c9
 P
- src/main/home012/HomeWork12.java,a\7\a75cf56813ec3dc177d25b9b2a832035228e347d
-P
  src/main/home013/HomeWork08.java,1\4\14668e36f188bf17f748ed5b6e961a726a19a864
 P
  src/main/home013/HomeWork07.java,1\c\1c60080527cceb42aacb0ea193c01d381c2b53cb
@@ -110,3 +100,21 @@ P
  src/main/home013/HomeWork03.java,c\7\c74b2c990fdfbfb7d515a246ed69bacd0cc2db7b
 P
  src/main/home013/HomeWork02.java,a\9\a9a7daa060cdca67869c6064e98810e95bcb775e
+Y
+)src/main/java106/MultiplicationTable.java,7\f\7fb2302f485fccfdf74d80781546ac4a298af49d
+V
+&src/main/java106/ComputeFactorial.java,c\b\cb6745d9a011d7313b77f0abc1e4fe9ab38e2ac5
+T
+$src/main/java106/ComputePayroll.java,9\e\9ec1c56cd07064c69f84f586c1f41ca8d05c0af4
+T
+$src/main/java106/ComputeProduct.java,0\7\0753dcafd824cb462d5d0d1b9e533b909e7f4a18
+T
+$src/main/dop/if01/ChristmasTree.java,f\7\f711c2f2717974a0bf2d289a9a80cd0444a8c2ee
+P
+ src/main/java106/CountYears.java,3\8\38e8647350d4964e7f51d6da5ab58ad08647b083
+P
+ src/main/home013/HomeWork09.java,6\7\672c1e60fd9bf6fddba81e1f3ce0e18fe243dfd1
+N
+src/main/dop/if01/IfOne01.java,4\6\46cf01cafe7eab11cddeafd7fd23946e5d6467a6
+J
+src/main/java106/Test.java,2\3\23819c83dc3e9519bd8d748eee1005a656fe79e6

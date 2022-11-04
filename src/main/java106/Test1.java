@@ -15,8 +15,9 @@ public class Test1 {
         int num;
         var in = new Scanner(System.in);
         System.out.println("Введите число: ");
-
-        while (in.hasNextInt()) {
+        
+        do {
+            System.out.println("Введите число: ");
             num = in.nextInt();
             if (num > 0) {
                 plus++;
@@ -29,7 +30,38 @@ public class Test1 {
             System.out.println("количество отрицательных чисел равно: " + minus);
             System.out.println();
             System.out.println("Введите число: ");
-        }
+        } while (in.hasNextInt());
+
+
+//        for (; in.hasNextInt() ;) {
+//            num = in.nextInt();
+//            if (num > 0) {
+//                plus++;
+//            } else if (num < 0) {
+//                minus++;
+//            }
+//            if (num == 0)
+//                break;
+//            System.out.println("количество положительных чисел равно: " + plus);
+//            System.out.println("количество отрицательных чисел равно: " + minus);
+//            System.out.println();
+//            System.out.println("Введите число: ");
+//        }
+
+//        while (in.hasNextInt()) {
+//            num = in.nextInt();
+//            if (num > 0) {
+//                plus++;
+//            } else if (num < 0) {
+//                minus++;
+//            }
+//            if (num == 0)
+//                break;
+//            System.out.println("количество положительных чисел равно: " + plus);
+//            System.out.println("количество отрицательных чисел равно: " + minus);
+//            System.out.println();
+//            System.out.println("Введите число: ");
+//        }
         System.out.println("Расчет окончен." + "\nИтого" + "\nположительных:" + plus + "\nотрицательных: " + minus);
     }
 }

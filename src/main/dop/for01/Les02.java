@@ -19,12 +19,9 @@ public class Les02 {
         var in = new Scanner(System.in);
         int num1 = in.nextInt();
         int num2 = in.nextInt();
-        int count = 0;
 
-        for (int i = 1; i <= 19; i++){
-            Math.random();
-            count += i;
-            System.out.println(count);
+        for (int i = 0; i < 20; i++){
+            System.out.println(num1+(int)(Math.random() * ((num2-num1)+1)));
         }
     }
 }

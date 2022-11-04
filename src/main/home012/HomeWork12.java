@@ -22,22 +22,39 @@ world234
  */
 public class HomeWork12 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String password = scanner.nextLine();
-        String str1 = "_*-";
-        String str2 = "A-Z";
-        String str3 = "a-z";
-        String str4 = "0-9";
-
-        for (int i = 0; i < password.length(); i++) {
-            char c = password.charAt(i);
+        var sc = new Scanner(System.in);
+        String s = "sdjv39A*_-";
+        if (s.length() <=8) {
+            //не подходит
         }
 
-        if (str1.matches(password)) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
+        boolean hasUpperCase = false;
+        boolean hasLowercase = false;
+        boolean hasDigit = false;
+        boolean hasSpecialSigns = false;
+
+        //password.matches(".*[A-Z]+.*")
+        //password.matches(".*[a-z]+.*")
+        //password.matches(".*[0-9]+.*")
+        //password.matches(".*[\\-*_]+.*")
+
+
+//        Scanner scanner = new Scanner(System.in);
+//        String password = scanner.nextLine();
+//        String str1 = "_*-";
+//        String str2 = "A-Z";
+//        String str3 = "a-z";
+//        String str4 = "0-9";
+//
+//        for (int i = 0; i < password.length(); i++) {
+//            char c = password.charAt(i);
+//        }
+//
+//        if (str1.matches(password)) {
+//            System.out.println(true);
+//        } else {
+//            System.out.println(false);
+//        }
 
 
 
