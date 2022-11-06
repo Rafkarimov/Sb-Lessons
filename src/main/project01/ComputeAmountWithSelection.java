@@ -67,13 +67,38 @@ digit = dollars % 10;
 введите сумму денег в ам. долларах: 13
 введите сумму денег в ам. долларах: 21
 введите сумму денег в ам. долларах: 34
+часть 4:
+В этом курсе мы продолжим выполнение проекта и добавим в эту программу два метода:
+без возвращаемого значения и без аргументов;
+с возвращаемым значением и с аргументом.
+
+Постановка задачи:
+Перепишите программу, которая конвертирует сумму денег из американских долларов в российские рубли по курсу покупки
+72.12, добавив метод, отображающий инструкции, и метод, конвертирующий сумму денег.
+
+Анализ задачи:
+Константы задачи:
+static final double ROUBLES_PER_DOLLAR = 72.12; // курс покупки
+Входные данные задачи:
+int dollars; // сумма денег в американских долларах
+int n; // количество конвертаций
+Переменные программы:
+int digit; // последняя цифра dollars
+int i; // счетчик
+Выходные данные задачи:
+double roubles; // сумма денег в российских рублях
+Соответствующие формулы:
+roubles = ROUBLES_PER_DOLLAR * dollars;
+digit = dollars % 10;
+
  */
 
 import java.util.Scanner;
 
 public class ComputeAmountWithSelection {
+    static final double ROUBLES_PER_DOLLAR = 72.12;
+
     public static void main(String[] args) {
-        final double ROUBLES_PER_DOLLAR = 72.12;
 
         int dollars;
         double roubles;
@@ -82,6 +107,9 @@ public class ComputeAmountWithSelection {
         int i;
 
         Scanner input = new Scanner(System.in);
+
+        //Отобразить инструкцию
+        instruct();
 
         //Получить количество конвертаций до тех пор, пока не введено корректное значение
         do {
@@ -115,10 +143,24 @@ public class ComputeAmountWithSelection {
             }
 
             //Конвертировать сумму денег в российские рубли
-            roubles = ROUBLES_PER_DOLLAR * dollars;
+            roubles = find_roubles(dollars);
 
             //Отобразить сумму денег в российских рублях в пользу покупателя
             System.out.println((int) (roubles * 100) / 100.0 + " российского рубля.");
         }
+    }
+    /*
+    отображает инструкцию
+     */
+    public static void instruct() {
+        System.out.println("Эта программа конвертирует сумму денег " + "из американских долларов в российские рубли.");
+        System.out.println("Курс покупки равер " + ROUBLES_PER_DOLLAR + " рубля. \n");
+    }
+
+    /*
+    Конвертирует сумму денег из американских долларов в российские рубли
+     */
+    public static double find_roubles(int dollars) {
+        return ROUBLES_PER_DOLLAR * dollars;
     }
 }

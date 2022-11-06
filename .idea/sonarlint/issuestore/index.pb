@@ -118,3 +118,49 @@ N
 src/main/dop/if01/IfOne01.java,4\6\46cf01cafe7eab11cddeafd7fd23946e5d6467a6
 J
 src/main/java106/Test.java,2\3\23819c83dc3e9519bd8d748eee1005a656fe79e6
+N
+src/main/dop/if01/IfOne03.java,2\3\23776bba677c2da59b92a4757b5599990a0912d2
+N
+src/main/dop/if01/IfOne04.java,3\7\372fed7532417b5d19047b61aea6a5a32c815160
+N
+src/main/dop/if01/IfOne05.java,1\5\155082f63c6335bc9075e9c3dd461ff73addcecc
+N
+src/main/dop/if01/IfOne06.java,d\c\dc7dae15dee3f4ddde665451b575ed0a7fdce305
+X
+(src/main/dop/if01/StringBuilderTest.java,0\3\0338352540e51af17230b9642a4be68c0baff7b3
+M
+src/main/dop/for01/Les01.java,6\b\6b98c7b0dc0ea72f08707ee26dae91260657d5b6
+K
+src/main/java106/Test4.java,6\4\6484364c24401bb6cba35298aee3a5b79ae996a3
+K
+src/main/java106/Test3.java,f\b\fb25890d2bd533bfe7f2214908ea80960d8abea4
+K
+src/main/java106/Test2.java,3\1\3166e79288482a303c2fe0507f0dce062e94ce79
+Z
+*src/main/java104/TestBooleanOperators.java,b\8\b8169046903063d861204cae81c2a217681a9233
+R
+"src/main/java104/SimpleIfDemo.java,7\0\70220989a3167eeb14a0e6deaa583ac0c30fcadc
+N
+src/main/java104/LeapYear.java,b\5\b52325b8872947e823080a81a723f963eff81f23
+R
+"src/main/java104/AdditionQuiz.java,8\f\8f2623b6f8cd8393f62f24a536e388362d0fd463
+\
+,src/main/java104/ComputeAndInterpretBMI.java,0\b\0bccab345a6e7d78181cac64433224504a71f92b
+a
+1src/main/java104/ComputeAreaWithConsoleInput.java,b\e\be4398052401f1a36d605244b45774823f40207c
+P
+ src/main/java20221014/Task1.java,5\e\5ee64c495429bdca4f857d5b63f4eb9e007c45e6
+P
+ src/main/java20221014/Task9.java,b\b\bb1647765a3191ffe41ab16330688c76534424a0
+Q
+!src/main/java20221014/Task10.java,1\c\1c313cbebfe369bf7981a87ef88e1950da34bc59
+P
+ src/main/java20221014/Task8.java,6\3\636c6a3d7c29690e8886a1cf9a4e7e89fa072e4b
+P
+ src/main/java20221014/Task7.java,d\b\db638cc07e702117a5c499cfade36137174d609d
+M
+src/main/dop/for01/Les02.java,2\a\2a2ca128ca53eea837b559d26513ef7959665fae
+Q
+!src/main/java20221104/Task01.java,3\a\3a4227fc9fc4a7a717e3efa287c7f34e58dcbd7e
+K
+src/main/java106/Test1.java,4\f\4fc1130589cc8353f6153843843ec39926ad1996
