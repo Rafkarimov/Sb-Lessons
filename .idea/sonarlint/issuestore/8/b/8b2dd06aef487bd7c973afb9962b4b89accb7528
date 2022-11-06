@@ -1,0 +1,10 @@
+
+Z
+java:S1659	"DDeclare "number2" and all following declarations on a separate line.(±Ó¹×
+E
+java:S1481	"(Remove this unused "num" local variable.(±Ó¹×8Á¦Ç–½0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—âÛ¢
+V	java:S125"<This block of commented-out lines of code should be removed.(í†”õýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‡ðÿ‰
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ¯äýÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(„ƒ…é8½ÀÍ–½0

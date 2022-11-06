@@ -1,0 +1,14 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ºø”ÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ºø”ÿÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„õşƒ
+B
+java:S1659"'Declare "count_emp" on a separate line.(×ºø”ÿÿÿÿÿ
+W
+java:S1659"ADeclare "rate" and all following declarations on a separate line.(„õşƒ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÔÉÎ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›Ñ«ñùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›Ş¥ûÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(¸’ãª
+N	java:S106("9Replace this use of System.out or System.err by a logger.(øİ¯
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(µı›Áùÿÿÿÿ
