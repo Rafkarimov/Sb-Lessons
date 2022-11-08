@@ -171,12 +171,6 @@ Q
 Q
 !src/main/java20221104/Task04.java,7\2\72f35e3293974eaecac4516f534b4c562b5bd68b
 Q
-!src/main/java20221104/Task05.java,2\b\2b24333610dd04ee63c386c56d0a306132e7f703
-Q
-!src/main/java20221104/Task06.java,1\f\1f8b2e5fb80e8385e1d36ae6cd85f32379c32fd8
-Q
-!src/main/java20221104/Task07.java,6\3\63e6be283b3c73a10cc7618a91b292c582b7fe7f
-Q
 !src/main/java20221104/Task08.java,d\6\d67b5c1e1f94838f0104fee3d142be6bfc4164ac
 Q
 !src/main/java20221104/Task09.java,9\0\90976ee8bb1e634944df4c2ac5ea03f8526fba2d
@@ -202,3 +196,11 @@ U
 +src/main/java201/TestReturnGradeMethod.java,c\4\c4556027c0fd9f24c89037b87df2dc6a866a5a4a
 T
 $src/main/java201/TestVoidMethod.java,7\4\74b4415d28aa679cda01331ea98f2778454675de
+U
+%src/main/java201/CostCalculation.java,0\f\0f0e80b1e42663f3ada18a9f28644a77d943cbdb
+J
+src/main/java201/Test.java,2\6\26988bb927df9450378712b0078da7335d96b476
+P
+ src/main/java202/TestArray1.java,f\e\fe70a13e8d62d0748505fd4081ad39b3030559d3
+Q
+!src/main/java202/LoanRateMin.java,7\f\7f6cd674fcb00b57b9ce9184bc076d50ad382f93

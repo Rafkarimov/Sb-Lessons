@@ -1,0 +1,9 @@
+
+[
+java:S1659("?Declare "n2" and all following declarations on a separate line.(ğ×¬68ÙŸ‹ãÄ0
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(¥¤¦Ğ8äŸ‹ãÄ0
+T	java:S106/"9Replace this use of System.out or System.err by a logger.(¬™­8æŸ‹ãÄ0
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(ø“¶şÿÿÿÿ8èŸ‹ãÄ0
+j	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áü¬¿8êŸ‹ãÄ0
+<
+java:S1659>"Declare "k" on a separate line.(ç°•¥8ìŸ‹ãÄ0
