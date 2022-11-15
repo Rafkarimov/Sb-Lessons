@@ -35,18 +35,27 @@ public class HomeWork09 {
     public static void main(String[] args) {
         var sc = new Scanner(System.in);
         int n = sc.nextInt();
-        String[] arr = new String[] {"\n"};
+        String[] arr = new String[n];
         for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextLine();
+            arr[i] = sc.next();
         }
-        System.out.println(Arrays.toString(arr));
-//        for (int i = 0; i < n; i++) {
-//            arr[i] = sc.nextLine();
+        String result = findDuplicate(arr, n);
+        System.out.println(result);
     }
-//        for (int i = 0; i < arr.length; i++) {
-//            for (int j = 0; j < arr.length; j++) {
-//                boolean flag = Arrays.equals(arr[i], arr[j]);
-//                System.out.println(flag);
+
+    private static String findDuplicate(String[] arr, int n) {
+        String result = null;
+        outerloop:
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (arr[i].equals(arr[j])) {
+                    result = arr[i];
+                    break outerloop;
+                }
+            }
+        }
+        return result;
+    }
 }
 
 

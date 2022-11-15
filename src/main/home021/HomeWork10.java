@@ -1,5 +1,6 @@
 package main.home021;
 
+import java.util.Random;
 import java.util.Scanner;
 
 /*
@@ -15,14 +16,30 @@ import java.util.Scanner;
 меньше загаданного." Если введенное число больше, то вывести "Это число
 больше загаданного." Продолжать игру до тех пор, пока число не будет отгадано
 или пока не будет введено любое отрицательное число.
+1. делаем бесконечный цикл
+2. несколько ифов
  */
 public class HomeWork10 {
     public static void main(String[] args) {
+        var random = new Random().nextInt(1001); // загадали число
+//        System.out.println(random); // чтоб видеть какое число загадали
         var sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        generation(arr);
+        while (true) { // бесконечный цикл
+            int n = sc.nextInt();
+            if (n == random) {
+                System.out.println("Победа!");
+                break;
+            } else if (n < random) {
+                if (n < 0) {
+                    break;
+                }
+                System.out.println("Это число меньше загаданного.");
+            } else {
+                System.out.println("Это число больше загаданного.");
+            }
+        }
     }
+
 
     public static void generation(int[] arr) {
         for (int i = 0; i < arr.length; i++) {

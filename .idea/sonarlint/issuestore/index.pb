@@ -228,3 +228,27 @@ T
 $src/main/dop/method/Method17Les.java,8\d\8d29fe88220bee1b65efedde9acda07a5547f6e1
 T
 $src/main/dop/method/Method12Les.java,1\0\10352f0eab0a65475e6dd82042458636ad4616d0
+Q
+!src/main/dop/array/Array12Pr.java,c\b\cb4f5a40eaf1507660389ab395aa9d9e8d8fa874
+Q
+!src/main/java20221111/Task07.java,7\2\721bac3b5947945c47cde713b8861c276ef37ece
+Q
+!src/main/java20221111/Task08.java,b\e\be921fab2d34ec188ac927cd844e16ae85469c4e
+Q
+!src/main/java20221111/Task01.java,d\8\d847b0681e79a5136f3cafa9694ed006b31068d6
+Q
+!src/main/java20221111/Task02.java,d\6\d6f37cb5b4aeecb788233bf7060538ad28edaaa5
+Q
+!src/main/java20221111/Task03.java,0\1\010730fc8014c339c1e7790d68b997b938009995
+Q
+!src/main/java20221111/Task04.java,d\e\de3513e4ad94757dd6494c90f1d43f48628aa832
+Q
+!src/main/java20221111/Task05.java,e\8\e80445864b3e9761b042562a8d7eab742be72da7
+Q
+!src/main/java20221111/Task09.java,4\5\454357dabbab9ae78e6d83fd3b7246fc845da0e8
+Q
+!src/main/java20221111/Task06.java,1\c\1cf8f10863e2e50ccfbe522194bd14992659a934
+P
+ src/main/home021/HomeWork01.java,e\a\ead49637283fc9d6d9cd5466762b10fea7e93680
+P
+ src/main/home021/HomeWork02.java,4\9\494920442c356e6c71ee8c3c767bf2ba579ebc85

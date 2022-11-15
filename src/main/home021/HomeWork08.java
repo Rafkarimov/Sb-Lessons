@@ -1,6 +1,6 @@
 package main.home021;
 
-import java.util.Scanner;
+import java.util.*;
 
 /*
 (1 балл) На вход подается число N — длина массива. Затем передается массив
@@ -33,6 +33,31 @@ public class HomeWork08 {
             ai[i] = sc.nextInt();
         }
         int m = sc.nextInt();
+        int diff = 1000;
+        int num = -1000;
+        for (int i = 0; i < n; i++) {
+            int temp = Math.abs(ai[i] - m);
+            if (temp <= diff) {
+                diff = temp;
+                if (ai[i] > num) {
+                    num = ai[i];
+                }
+            }
+        }
+        System.out.println(num);
 
+//        Map<Integer, Integer> map = new LinkedHashMap<>();
+//        for (int v : ai) {
+//            map.put(v, Math.diff(v - m));
+//        }
+//        System.out.println(map);
+//        int diff = map.values().stream()
+//                .min(Integer::compareTo).get();
+//        System.out.println(diff);
+//        int result = map.entrySet().stream()
+//                .filter(e -> e.getValue() == diff)
+//                .max((entry1, entry2) -> entry1.getValue() > entry2.getValue() ? 1 : -1).get().getKey();
+//        System.out.println(result);
     }
 }
+
