@@ -21,9 +21,20 @@ import java.util.Scanner;
 public class HomeWork11 {
     public static void main(String[] args) {
         var sc = new Scanner(System.in);
+        System.out.println("Введите желаемую длину пароля не менее 8 символов: ");
+        int n = sc.nextInt();
+        if (!(n >= 8)) {
+            System.out.println("Пароль с " + n +  " количеством символов небезопасен");;
+        } else {
+            System.out.println("Введите еще раз длину пароля, более 8 символов");
+            return;
+        }
 
-        String[] upperCase = new String[8];
-        String[] lowerCase = new String[8];
+
+        String[] upperCase = {"а", "б", "в", "г", "д", "е", "ж", "з", "и", "й", "к", "л", "м", "н", "о", "п", "р", "с",
+                "т", "у", "ф", "х", "ц", "ч", "ш", "щ", "ь", "ы", "ъ", "э", "ю", "я"};
+        String[] lowerCase = {"А", "Б", "В", "Г", "Д", "Е", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С",
+                "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ь", "Ы", "Ъ", "Э", "Ю", "Я"};
         String[] digit = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
         String[] symbols = {"_", "*", "-"};
 
