@@ -1,4 +1,7 @@
 package main.home022;
+
+import java.util.Scanner;
+
 /*
 5.	На вход подается число N — количество строк и столбцов матрицы.
 Затем передается сама матрица, состоящая из натуральных чисел.
@@ -12,6 +15,7 @@ package main.home022;
 ●	0 < ai < 1000
 
 Входные данные
+3
 1 2 3
 4 5 6
 7 8 9
@@ -29,4 +33,23 @@ false
 true
  */
 public class HomeWork05 {
+    public static void main(String[] args) {
+        var sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[][] arr = new int[n][n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        for (int i = 0; i < (Math.min(arr[0].length, arr.length)); i++) {
+            int num = arr[arr.length - i - 1][arr[0].length - i - 1];
+            boolean result = false;
+
+        }
+    }
+
 }
+
+

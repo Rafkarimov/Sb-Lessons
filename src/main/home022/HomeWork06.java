@@ -1,4 +1,8 @@
 package main.home022;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
 /*
 6.	Петя решил начать следить за своей фигурой. Но все существующие приложения для подсчета калорий ему не понравились
 и он решил написать свое. Петя хочет каждый день записывать сколько белков, жиров, углеводов и калорий он съел,
@@ -42,4 +46,30 @@ package main.home022;
 Нужно есть поменьше
  */
 public class HomeWork06 {
+    private static final int NUMBEROFDAYS = 7;
+    private static final int NUMBEROFPOSITION = 4;
+
+    public static void main(String[] args) {
+        var sc = new Scanner(System.in);
+        int[] arrNorma = new int[NUMBEROFPOSITION];
+        for (int i = 0; i < NUMBEROFPOSITION; i++) {
+            arrNorma[i] = sc.nextInt();
+        }
+
+        int[][] arrRealWeak = new int[NUMBEROFDAYS][NUMBEROFPOSITION];
+        for (int i = 0; i < NUMBEROFDAYS; i++) {
+            for (int j = 0; j < NUMBEROFPOSITION; j++) {
+                arrRealWeak[i][j] = sc.nextInt();
+            }
+        }
+        System.out.println(Arrays.toString(arrRealWeakAll(arrRealWeak)));
+    }
+
+    private static int[] arrRealWeakAll(int[][] arrRealWeak) {
+        int[] ret = new int[arrRealWeak.length];
+        for (int i = 0; i < ret.length; i++) {
+            ret[i] = arrRealWeak[i][NUMBEROFPOSITION-1];
+        }
+        return ret;
+    }
 }

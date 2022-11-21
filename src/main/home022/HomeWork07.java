@@ -1,4 +1,7 @@
 package main.home022;
+
+import java.util.Scanner;
+
 /*
 7.	Раз в год Петя проводит конкурс красоты для собак. К сожалению, система хранения участников и оценок неудобная,
 а победителя определить надо. В первой таблице в системе хранятся имена хозяев, во второй - клички животных,
@@ -38,4 +41,37 @@ package main.home022;
 
  */
 public class HomeWork07 {
+    public static void main(String[] args) {
+        var sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String [] nameHuman = new String[n];
+        for (int i = 0; i < n; i++) {
+            nameHuman[i] = sc.next();
+        }
+        String[]nameDogs = new String[n];
+        for (int i = 0; i < n; i++) {
+            nameDogs[i] = sc.next();
+        }
+        int assessments = 3;
+        int[][] arr = new int[n][assessments];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < assessments; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        int mOfAr = meanOfArithmetic(arr, n, assessments);
+        System.out.println(mOfAr);
+
+
+    }
+
+    private static int meanOfArithmetic (int[][] arr, int n, int assessments) {
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < assessments; j++) {
+                sum += i;
+            }
+        }
+        return sum;
+    }
 }

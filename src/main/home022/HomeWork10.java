@@ -33,6 +33,7 @@ public class HomeWork10 {
     }
 
     private static String reverseStringWithSpace (String str) {
-        return reverseString(str.replace("", " ").trim());
+        return reverseString(str.replace
+                ("", " ").trim());
     }
 }
