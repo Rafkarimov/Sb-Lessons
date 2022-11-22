@@ -2,24 +2,39 @@ package main.java301;
 
 public class Circle {
     /** Радиус круга */
-    double radius = 1; // <--- Поле данных
-    /** Создает объект круга *///-----------------------
-    Circle() { //                                      |
-    } //                                               |
-    /** Создает объект круга с указанным радиусом */// |<--- Конструкторы
-    Circle(double newRadius) { //                      |
-        radius = newRadius; //                           |
-    } //------------------------------------------------
-    /** Возвращает площадь этого круга *///--------
-    double getArea() { //                         |
-        return radius * radius * Math.PI; //        |
-    } //                                          |
-    /** Возвращает периметр этого круга *///      |
-    double getPerimeter() { //                    |<--- Методы
-        return 2 * radius * Math.PI; //             |
-    } //                                          |
-    /** Присваивает новый радиус этому кругу */// |
-    void setRadius(double newRadius) { //         |
-        radius = newRadius; //                      |
-    } //-------------------------------------------
+    private double radius = 1;
+
+    /** Количество созданных объектов */
+    private static int numberOfObjects = 0;
+
+    /** Создает круг с радиусом, равным 1 */
+    public Circle() {
+        numberOfObjects++;
+    }
+
+    /** Создает круг с указанным радиусом */
+    public Circle(double newRadius) {
+        radius = newRadius;
+        numberOfObjects++;
+    }
+
+    /** Возвращает радиус */
+    public double getRadius() {
+        return radius;
+    }
+
+    /** Присваивает новый радиус */
+    public void setRadius(double newRadius) {
+        radius = (newRadius >= 0) ? newRadius : 0;
+    }
+
+    /** Возвращает количество объектов */
+    public static int getNumberOfObjects() {
+        return numberOfObjects;
+    }
+
+    /** Возвращает площадь круга */
+    public double getArea() {
+        return radius * radius * Math.PI;
+    }
 }

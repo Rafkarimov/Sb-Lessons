@@ -24,14 +24,14 @@ public class Rectangle {
     public static void main(String[] args) {
 
 
-        System.out.println("Ширина 1 прямоугольника равна: " + rectangle1.width +
-                "Высота 1 прямоугольника равна: " + rectangle1.height +
-                "Площадь 1 прямоугольника равна: " + rectangle1.getArea(width, height) +
-                "Периметр 1 прямоугольника равна: " + rectangle1.getPerimeter(width, height));
-        System.out.println("Ширина 2 прямоугольника равна: " + rectangle2.width +
-                "Высота 2 прямоугольника равна: " + rectangle2.height +
-                "Площадь 2 прямоугольника равна: " + rectangle2.getArea(width, height) +
-                "Периметр 2 прямоугольника равна: " + rectangle2.getPerimeter(width, height));
+//        System.out.println("Ширина 1 прямоугольника равна: " + rectangle1.width +
+//                "Высота 1 прямоугольника равна: " + rectangle1.height +
+//                "Площадь 1 прямоугольника равна: " + rectangle1.getArea(width, height) +
+//                "Периметр 1 прямоугольника равна: " + rectangle1.getPerimeter(width, height));
+//        System.out.println("Ширина 2 прямоугольника равна: " + rectangle2.width +
+//                "Высота 2 прямоугольника равна: " + rectangle2.height +
+//                "Площадь 2 прямоугольника равна: " + rectangle2.getArea(width, height) +
+//                "Периметр 2 прямоугольника равна: " + rectangle2.getPerimeter(width, height));
     }
 
 
