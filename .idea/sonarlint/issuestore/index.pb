@@ -41,9 +41,6 @@ U
 %src/main/java103/ComputeExchange.java,c\7\c7f81e44f4562cfc3007f3256ff612af900d2dde
 X
 (src/main/java20221028/regexp/Task01.java,3\e\3e752d3fff5653b9ee1849b518f7a7123aa5fa18
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 P
  src/main/home013/HomeWork01.java,1\b\1b90cf6df3aebd4fbe4bc9f340acfea0beb21452
 P
@@ -249,6 +246,94 @@ Q
 Q
 !src/main/java20221111/Task06.java,1\c\1cf8f10863e2e50ccfbe522194bd14992659a934
 P
- src/main/home021/HomeWork01.java,e\a\ead49637283fc9d6d9cd5466762b10fea7e93680
+ src/main/home021/HomeWork04.java,f\d\fdfa00b7044b32911cb6d3145cbf219147523726
+Q
+!src/main/home021/HomeWork041.java,2\5\252239b4826a82d327cd0f569962bed248870660
+P
+ src/main/home021/HomeWork06.java,a\0\a0c5897ac706d6e95ab8b1ff752bebc172efb4ee
+P
+ src/main/home021/HomeWork08.java,0\d\0dcef1c8a412067017cc1a568a4964e3a20228ad
+J
+src/main/java203/Test.java,d\8\d844b57fa7ef736e02d1166d9c725ac3e7652b59
+\
+,src/main/java204/RecursiveSelectionSort.java,2\8\28387907c5b4375afb4e88bc26688b492b26149a
+K
+src/main/java203/Test3.java,4\1\416fee18ae7995ce63042043e483dd6a5ede3534
+R
+"src/main/java204/TowerOfHanoi.java,b\6\b6cee68b97ba640775bfb2c2bf2fba1547b613b5
+X
+(src/main/java204/ComputeFibonacciIt.java,6\5\65246b267aff5b6c363ee0e10b7cc68fcd915889
+[
++src/main/java204/RecursiveBinarySearch.java,c\c\cca04938d1c47daa3839ff47aeacb902543ed553
+g
+7src/main/java204/RecursivePalindromeUsingSubstring.java,6\8\686cd2def33325fdcb6dbe003530c389c509a622
+c
+3src/main/java204/ComputeFactorialTailRecursion.java,f\9\f9fad1c7a1204f1679708a2e60942564f5c42ca1
+Y
+)src/main/java204/ComputeFibonacciRec.java,c\2\c2cb5656aad41c9a69d9fa97f64d1a53c37cbcb0
+W
+'src/main/java204/MaskingCardNumber.java,6\6\66bad92d6004aa33feffa79380e77483b91bf4e1
+V
+&src/main/java204/ComputeFactorial.java,4\0\40cbe509ea326009ada0d63048a1da1d72bb848c
+V
+&src/main/java204/ComputeFibonacci.java,4\e\4ecbaab33803b473e1e842720112778f2e1bd1e8
+J
+src/main/java204/Test.java,d\8\d8d6db85c430fa6fa5e3f13a07d8b7b7451fe866
+Q
+!src/main/java20221118/Task04.java,f\2\f2bd42b5eb4c8b3d39982a8836cd7f0d696c5626
+Q
+!src/main/java20221118/Task05.java,c\3\c3c9af5270d9253dbf386eec6ea503bd5002fd3e
+Q
+!src/main/java20221118/Task06.java,1\e\1edd3b357402a4350dc3c774c564ca2f6e0adeb6
+R
+"src/main/java20221118/Task051.java,f\e\fe1da113bffad09ec9ccd42acea0e6ad63aff73a
+Q
+!src/main/java20221118/Task08.java,1\d\1deff05e2bad7f40919a08a1968f4241f946257a
+Q
+!src/main/java20221118/Task07.java,6\0\60d8fa81f74328cb06705d051eaad0200a91f6f3
+P
+ src/main/home021/HomeWork07.java,0\1\016c8aa7e9a5d6b6517420d0d6176ab958087778
+Q
+!src/main/java20221118/Task01.java,9\1\9129e43ddfac3abc8f4ea355c539e780a27969d8
+Q
+!src/main/java20221118/Task02.java,e\b\eb10fc89194d691d0c7306b273690c408d7569e2
+Q
+!src/main/java20221118/Task03.java,0\a\0abe6d4c899704bb27a1de12267e4f5769982d30
+P
+ src/main/home021/HomeWork09.java,9\0\9030fa45605f25ea15fca232d171bc568e1bc88f
+Q
+!src/main/java20221118/Task09.java,1\f\1fba695e886e7a515bd196668e204b7f7e9ae736
+P
+ src/main/home021/HomeWork05.java,4\5\45cc3c720d69944cde10bf7e10021351cca589e4
+Q
+!src/main/java20221118/Task13.java,3\d\3d0e0513e371054239b3fd7f585a4daa81126050
 P
  src/main/home021/HomeWork02.java,4\9\494920442c356e6c71ee8c3c767bf2ba579ebc85
+P
+ src/main/home021/HomeWork03.java,7\b\7bfec79eebbcb3fe992ee4412d7308542d3bf6d0
+P
+ src/main/home021/HomeWork01.java,e\a\ead49637283fc9d6d9cd5466762b10fea7e93680
+P
+ src/main/home022/HomeWork01.java,6\5\657acfaf501e8a322bd3c1838b8c698855775c78
+P
+ src/main/home022/HomeWork02.java,8\5\8571e74b7edb9e0f5528974199a0fe101d2d7b9d
+P
+ src/main/home022/HomeWork03.java,f\8\f8a160dc9ecb8d072c0de2aa0e0789315364a21c
+P
+ src/main/home022/HomeWork04.java,1\6\16e1dac7cc51c5f3e2ea6d2f26b68803aaaa089e
+P
+ src/main/home022/HomeWork05.java,4\6\466fc4b28bdf413be24f5260dba38d14683c103d
+P
+ src/main/home022/HomeWork06.java,d\e\dec66efcc12ca127318d4d57bbd88cef001b5437
+P
+ src/main/home022/HomeWork07.java,0\7\0716da9ca58ac9a21635ede95cc813049370adea
+P
+ src/main/home022/HomeWork08.java,1\0\100b5209745668c7698e1bdeb2d6babc763533d3
+P
+ src/main/home021/HomeWork12.java,4\d\4df32bc1315d1c9e731556fe00f699fba270f7c8
+P
+ src/main/home021/TestArrays.java,2\8\280f4f9d4ee43d88fc1716cc4b6d874ab5138281
+P
+ src/main/home022/HomeWork10.java,0\6\063cd2b57630236f40601ca2b6c636a52a71d45b
+P
+ src/main/home022/HomeWork09.java,2\b\2bf8040ee70e5e60af8f0b1dd2e6d5bfaf95a4ab
