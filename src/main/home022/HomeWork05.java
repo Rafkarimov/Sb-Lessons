@@ -43,13 +43,19 @@ public class HomeWork05 {
                 arr[i][j] = sc.nextInt();
             }
         }
-        for (int i = 0; i < (Math.min(arr[0].length, arr.length)); i++) {
-            int num = arr[arr.length - i - 1][arr[0].length - i - 1];
-            boolean result = false;
-
+        boolean flag = true;
+        for (int i = 0; i < n; i++) {
+            if (!flag)
+                break;
+            for (int j = 0; j < n; j++) {
+                if (arr[i][j] != arr[n - 1 - j][n - 1 - i]) {
+                    flag = false;
+                    break;
+                }
+            }
         }
+        System.out.println(flag);
     }
-
 }
 
 

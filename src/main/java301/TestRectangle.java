@@ -14,34 +14,42 @@ package main.java301;
  а второй - с шириной 3.5 и высотой 35.9. Программа также должна отображать ширину, высоту, площадь и периметр
  каждого прямоугольника в указанном порядке.
  */
-public class Rectangle {
-    double width = -1;
-    double height = -1;
-    public Rectangle(double width, double height) {
-        Rectangle rectangle2 = new Rectangle(3.5, 35.9);
-        Rectangle rectangle1 = new Rectangle(4, 40);
-    }
+public class TestRectangle {
     public static void main(String[] args) {
+        Rectangle rectangle1 = new Rectangle(4, 40);
+        System.out.println("Ширина 1 прямоугольника равна: " + rectangle1.width +
+                "Высота 1 прямоугольника равна: " + rectangle1.height +
+                "Площадь 1 прямоугольника равна: " + rectangle1.getArea() +
+                "Периметр 1 прямоугольника равна: " + rectangle1.getPerimeter());
+        Rectangle rectangle2 = new Rectangle(3.5, 35.9);
+        System.out.println("Ширина 2 прямоугольника равна: " + rectangle2.width +
+                "Высота 2 прямоугольника равна: " + rectangle2.height +
+                "Площадь 2 прямоугольника равна: " + rectangle2.getArea() +
+                "Периметр 2 прямоугольника равна: " + rectangle2.getPerimeter());
+    }
+}
 
+class Rectangle {
+    double width = 1;
+    double height = 1;
 
-//        System.out.println("Ширина 1 прямоугольника равна: " + rectangle1.width +
-//                "Высота 1 прямоугольника равна: " + rectangle1.height +
-//                "Площадь 1 прямоугольника равна: " + rectangle1.getArea(width, height) +
-//                "Периметр 1 прямоугольника равна: " + rectangle1.getPerimeter(width, height));
-//        System.out.println("Ширина 2 прямоугольника равна: " + rectangle2.width +
-//                "Высота 2 прямоугольника равна: " + rectangle2.height +
-//                "Площадь 2 прямоугольника равна: " + rectangle2.getArea(width, height) +
-//                "Периметр 2 прямоугольника равна: " + rectangle2.getPerimeter(width, height));
+    public Rectangle() {
+    }
+
+    public Rectangle(double newWidth, double newHeight) {
+        width = newWidth;
+        height = newHeight;
     }
 
 
-    private double getArea(double width, double height) {
+    public double getArea() {
         return width * height;
     }
 
-    private double getPerimeter(double width, double height) {
+    public double getPerimeter() {
         return 2 * (width + height);
     }
 }
+
 
 
