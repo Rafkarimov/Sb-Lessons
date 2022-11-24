@@ -62,14 +62,38 @@ public class HomeWork06 {
                 arrRealWeak[i][j] = sc.nextInt();
             }
         }
-        System.out.println(Arrays.toString(arrRealWeakAll(arrRealWeak)));
+        String result = "Отлично";
+        int[] arrSum = arrRealWeekAll(arrRealWeak);
+        for (int i = 0; i < NUMBEROFPOSITION; i++) {
+            if (arrSum[i] > arrNorma[i]) {
+                result = "Нужно есть поменьше";
+                break;
+            }
+        }
+//        printArray(arrRealWeak);
+        System.out.println(Arrays.toString(arrNorma));
+        System.out.println("---------------------");
+        System.out.println(Arrays.toString(arrRealWeekAll(arrRealWeak)));
+        System.out.println("--------------------");
+        System.out.println(result);
     }
 
-    private static int[] arrRealWeakAll(int[][] arrRealWeak) {
-        int[] ret = new int[arrRealWeak.length];
-        for (int i = 0; i < ret.length; i++) {
-            ret[i] = arrRealWeak[i][NUMBEROFPOSITION-1];
+    private static int[] arrRealWeekAll(int[][] arrRealWeak) {
+        int[] arrSum = new int[NUMBEROFPOSITION];
+        for (int i = 0; i < arrRealWeak.length; i++) {
+            for (int j = 0; j < arrRealWeak[i].length; j++) {
+                arrSum[j] += arrRealWeak[i][j];
+            }
         }
-        return ret;
+        return arrSum;
+    }
+
+    private static void printArray(int[][] arr) {
+        for (int[] i : arr) {
+            for (int j = 0; j < i.length; j++) {
+                System.out.print(i[j] + (j == i.length - 1 ? "" : " "));
+            }
+            System.out.println();
+        }
     }
 }

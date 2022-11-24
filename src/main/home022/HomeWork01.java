@@ -33,22 +33,18 @@ public class HomeWork01 {
         var sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int[][] arr = new int[n][m];
-        int[] result = new int[arr.length-1];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+        int[][] arr = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 arr[i][j] = sc.nextInt();
             }
         }
-        for (int i = 0; i < n; i++) {
-            int min = Integer.MAX_VALUE; // начальный минимум с максимальным значением int
-            for (int j = 0; j < m; j++) {
-                if (min > arr[i][j]) { // если элемент меньше моего
-                    min = arr[i][j]; // назначьте новое минимальное значение
-                }
-            }
-            result[i] = min; // сохраняем
+        String str = "";
+        for (int i = 0; i < m; i++) { // прошлись по 1 строке
+            int[] temp = arr[i];
+            Arrays.sort(temp);
+            str += temp[0] + " ";
         }
-        System.out.println(Arrays.toString(result));
+        System.out.println(str);
     }
 }

@@ -1,5 +1,6 @@
 package main.home022;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -43,18 +44,54 @@ public class HomeWork05 {
                 arr[i][j] = sc.nextInt();
             }
         }
-        boolean flag = true;
+        int[] temp = new int[n];
         for (int i = 0; i < n; i++) {
-            if (!flag)
-                break;
             for (int j = 0; j < n; j++) {
-                if (arr[i][j] != arr[n - 1 - j][n - 1 - i]) {
-                    flag = false;
+                if (j == i) {
+                    temp[i] = arr[i][j];
                     break;
                 }
             }
         }
-        System.out.println(flag);
+        System.out.println(diagonalIsSymmetric(temp));
+        /*
+3
+1 2 3
+4 5 6
+7 8 9
+         */
+//        boolean flag = true;
+//        for (int i = 0; i < n; i++) {
+//            if (!flag)
+//                break;
+//            for (int j = 0; j < n; j++) {
+//                if (arr[i][j] != arr[n - 1 - j][n - 1 - i]) {
+//                    flag = false;
+//                    break;
+//                }
+//            }
+//        }
+//        System.out.println(flag);
+
+    }
+
+    private static boolean diagonalIsSymmetric(int[] arr) {
+        boolean flag = true;
+        for (int i = 0; i < arr.length / 2; i++) {
+            if (arr[i] != arr[arr.length - 1 - i]) {
+                return false;
+            }
+        }
+        return flag;
+    }
+
+    private static void printArray(int[][] arr) {
+        for (int[] i : arr) {
+            for (int j = 0; j < i.length; j++) {
+                System.out.print(i[j] + (j == i.length - 1 ? "" : " "));
+            }
+            System.out.println();
+        }
     }
 }
 

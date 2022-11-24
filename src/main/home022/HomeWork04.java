@@ -1,5 +1,6 @@
 package main.home022;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -46,6 +47,46 @@ public class HomeWork04 {
             }
         }
         int p = sc.nextInt();
+        int x = 0;
+        int y = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (arr[i][j] == p) {
+                    x = i;
+                    y = j;
+                    break;
+                }
+            }
+        }
+        int[][] arrMinus = new int[n - 1][n - 1];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i != x && j != y) {
+                    arrMinus[i > x ? i - 1 : i][j > y ? j - 1 : j] = arr[i][j];
+                }
+            }
+        }
+        printArray(arrMinus);
+    }
 
+    /*
+
+3
+1 2 3
+1 7 3
+1 2 3
+7
+
+1 3
+1 3
+     */
+
+    private static void printArray(int[][] arr) {
+        for (int[] i : arr) {
+            for (int j = 0; j < i.length; j++) {
+                System.out.print(i[j] + (j == i.length - 1 ? "" : " "));
+            }
+            System.out.println();
+        }
     }
 }

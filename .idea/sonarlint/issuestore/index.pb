@@ -232,10 +232,6 @@ Q
 Q
 !src/main/java20221111/Task08.java,b\e\be921fab2d34ec188ac927cd844e16ae85469c4e
 Q
-!src/main/java20221111/Task01.java,d\8\d847b0681e79a5136f3cafa9694ed006b31068d6
-Q
-!src/main/java20221111/Task02.java,d\6\d6f37cb5b4aeecb788233bf7060538ad28edaaa5
-Q
 !src/main/java20221111/Task03.java,0\1\010730fc8014c339c1e7790d68b997b938009995
 Q
 !src/main/java20221111/Task04.java,d\e\de3513e4ad94757dd6494c90f1d43f48628aa832
@@ -294,8 +290,6 @@ Q
 P
  src/main/home021/HomeWork07.java,0\1\016c8aa7e9a5d6b6517420d0d6176ab958087778
 Q
-!src/main/java20221118/Task01.java,9\1\9129e43ddfac3abc8f4ea355c539e780a27969d8
-Q
 !src/main/java20221118/Task02.java,e\b\eb10fc89194d691d0c7306b273690c408d7569e2
 Q
 !src/main/java20221118/Task03.java,0\a\0abe6d4c899704bb27a1de12267e4f5769982d30
@@ -314,26 +308,21 @@ P
 P
  src/main/home021/HomeWork01.java,e\a\ead49637283fc9d6d9cd5466762b10fea7e93680
 P
- src/main/home022/HomeWork01.java,6\5\657acfaf501e8a322bd3c1838b8c698855775c78
-P
- src/main/home022/HomeWork02.java,8\5\8571e74b7edb9e0f5528974199a0fe101d2d7b9d
-P
- src/main/home022/HomeWork03.java,f\8\f8a160dc9ecb8d072c0de2aa0e0789315364a21c
-P
- src/main/home022/HomeWork04.java,1\6\16e1dac7cc51c5f3e2ea6d2f26b68803aaaa089e
-P
- src/main/home022/HomeWork05.java,4\6\466fc4b28bdf413be24f5260dba38d14683c103d
-P
- src/main/home022/HomeWork06.java,d\e\dec66efcc12ca127318d4d57bbd88cef001b5437
-P
- src/main/home022/HomeWork07.java,0\7\0716da9ca58ac9a21635ede95cc813049370adea
-P
  src/main/home022/HomeWork08.java,1\0\100b5209745668c7698e1bdeb2d6babc763533d3
-P
- src/main/home021/HomeWork12.java,4\d\4df32bc1315d1c9e731556fe00f699fba270f7c8
 P
  src/main/home021/TestArrays.java,2\8\280f4f9d4ee43d88fc1716cc4b6d874ab5138281
 P
- src/main/home022/HomeWork10.java,0\6\063cd2b57630236f40601ca2b6c636a52a71d45b
-P
  src/main/home022/HomeWork09.java,2\b\2bf8040ee70e5e60af8f0b1dd2e6d5bfaf95a4ab
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+L
+src/main/java301/Circle.java,8\6\86ee9ad710e8b9cd9a35eae33e31dc6609ab695e
+W
+'src/main/java301/GregorianCalendar.java,6\2\6288a28c41b999b50819b67bb1ca4ee45e611822
+U
+%src/main/java301/ShowCurrentTime.java,5\7\573b97cb6464a62343603d0a7537db8c8f5cc09f
+P
+ src/main/java301/TestCircle.java,d\5\d51d4870d78ef3fd7e9db1ab7391da570bfab072
+a
+1src/main/java301/TestCircleWithStaticMembers.java,d\4\d4bfc24ce545b65d79b7bd8c052dc218fc0efd46
