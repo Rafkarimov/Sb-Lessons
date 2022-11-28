@@ -1,84 +1,118 @@
 package main.project01;
+/*
+Используя уже созданный класс Account, смоделируйте работу банкомата. Создайте 10 банковских счетов в массиве
+с идентификаторами (далее — id) 0, 1, …, 9 и начальным балансом 10 000 рублей. Система запрашивает у пользователя
+ввести id. Если введен некорректный id, то попросите пользователя ввести корректный id. После получения корректного
+id отображается главное меню, как показано в примере запуска. Можно ввести пункт меню 1 для просмотра текущего баланса,
+2 — для снятия денег со счета, 3 — для внесения денег на счет и 4 — для выхода из основного меню. После выхода система
+снова запрашивает id, таким образом, после запуска она не останавливается.
 
-import java.util.Date;
+
+ */
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.time.LocalDate;
 
 public class Account {
+    private static BigDecimal annualInterestRate;
+    private static int count = 0; // счетчик
+
     private int id;
-    private double balance;
-    private static double annualInterestRate;
-    private Date dateCreated;
+    private BigDecimal balance;
+    private final LocalDate dateCreated;
+
+
 
     //Добавим в класс конструктор без параметров. Определим в конструкторе значение только одного параметра –
     // дата создания счета – с текущей датой и временем
     public Account() {
-        dateCreated = new Date();
+        dateCreated = LocalDate.now();
     }
+
+
     //Добавим конструктор, в котором будут определяться значения полей id и balance:
-    public Account(int id, double balance) {
-        this.id = id;
+    public Account(BigDecimal balance) {
+        id = count++;
         this.balance = balance;
-        dateCreated = new Date();
+        dateCreated = LocalDate.now();
     }
     //Добавим getter-методы для четырех полей класса:
-    /** Возвращает id */
+
+    /**
+     * Возвращает id
+     */
     public int getId() {
         return id;
     }
 
-    /** Возвращает баланс */
-    public double getBalance() {
+    /**
+     * Возвращает баланс
+     */
+    public BigDecimal getBalance() {
         return balance;
     }
 
-    /** Возвращает годовую процентную ставку */
-    public static double getAnnualInterestRate() {
+    /**
+     * Возвращает годовую процентную ставку
+     */
+    public static BigDecimal getAnnualInterestRate() {
         return annualInterestRate;
     }
 
-    /** Возвращает дату создания счета */
-    public Date getDateCreated() {
+    /**
+     * Возвращает дату создания счета
+     */
+    public LocalDate getDateCreated() {
         return dateCreated;
     }
     //Добавим setter-методы для трех полей, один из которых статический:
-    /** Присваивает новый id */
+
+    /**
+     * Присваивает новый id
+     */
     public void setId(int id) {
         this.id = id;
     }
 
-    /** Присваивает новый баланс */
-    public void setBalance(double balance) {
+    /**
+     * Присваивает новый баланс
+     */
+    public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
 
-    /** Присваивает новую годовую процентную ставку */
+    /**
+     * Присваивает новую годовую процентную ставку
+     */
     public static void setAnnualInterestRate(double annualInterestRate) {
-        Account.annualInterestRate = annualInterestRate;
-    }
-    //Добавим метод, который возвращает ежемесячный процент:
-    public double getMonthlyInterest() {
-        return balance * (annualInterestRate / 1200);
-    }
-    //Добавим метод, который снимает со счета указанную сумму:
-    public void withdraw(double amount) {
-        balance -= amount;
-    }
-    //Добавим метод, который пополняет счет на указанную сумму:
-    public void deposit(double amount) {
-        balance += amount;
+        Account.annualInterestRate = BigDecimal.valueOf(annualInterestRate);
     }
 
-    public static void main(String[] args) {
-        Account account = new Account(1122, 20000);
-        //Установим значение годовой процентной ставки по счету для класса через вызов статического метода:
-        Account.setAnnualInterestRate(4.5);
-        //Снимем деньги со счета, используя соответствующий метод:
-        account.withdraw(2500);
-        //Пополним счет, используя соответствующий метод:
-        account.deposit(3000);
-        //Выведем в консоль информацию по созданному банковскому счету:
-        System.out.println("Баланс равен " + account.getBalance() + " руб.");
-        System.out.println("Ежемесячный процент равен " + account.getMonthlyInterest() + " руб.");
-        System.out.println("Этот счет был создан " + account.getDateCreated());
+    //Добавим метод, который возвращает ежемесячный процент:
+    public BigDecimal getMonthlyInterest() {
+        return balance.multiply(annualInterestRate.divide(BigDecimal.valueOf(1200), RoundingMode.FLOOR));
     }
+
+    //Добавим метод, который снимает со счета указанную сумму:
+    public void withdraw(BigDecimal amount) {
+        balance = balance.subtract(amount);
+    }
+
+    //Добавим метод, который пополняет счет на указанную сумму:
+    public void deposit(BigDecimal amount) {
+        balance = balance.add(amount);
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", balance=" + balance +
+                ", dateCreated=" + dateCreated +
+                '}';
+    }
+
+
 }
 

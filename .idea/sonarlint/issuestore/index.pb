@@ -313,16 +313,69 @@ P
  src/main/home021/TestArrays.java,2\8\280f4f9d4ee43d88fc1716cc4b6d874ab5138281
 P
  src/main/home022/HomeWork09.java,2\b\2bf8040ee70e5e60af8f0b1dd2e6d5bfaf95a4ab
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 L
 src/main/java301/Circle.java,8\6\86ee9ad710e8b9cd9a35eae33e31dc6609ab695e
-W
-'src/main/java301/GregorianCalendar.java,6\2\6288a28c41b999b50819b67bb1ca4ee45e611822
 U
 %src/main/java301/ShowCurrentTime.java,5\7\573b97cb6464a62343603d0a7537db8c8f5cc09f
 P
  src/main/java301/TestCircle.java,d\5\d51d4870d78ef3fd7e9db1ab7391da570bfab072
 a
 1src/main/java301/TestCircleWithStaticMembers.java,d\4\d4bfc24ce545b65d79b7bd8c052dc218fc0efd46
+I
+src/main/java301/Foo.java,9\b\9b36c8e69c61fa74fe069a101668804690955f61
+e
+5src/main/java301/TestCircleWithPrivateDataFields.java,0\6\067bad0f21af3a6c271335d3056a325607b8e0d0
+^
+.src/main/java301/TestPassingCircleObjects.java,0\4\04260d72f5f71f15eb5d8e5504f6579ec1270bd3
+T
+$src/main/java301/TestPassObject.java,3\4\34559033ba08c2fe030bf5907a282b60fad1c2dc
+O
+src/main/java301/TotalArea.java,8\7\87a1f31ff6c1a982d138b0ca8d28e685e161fa60
+Y
+)src/main/java301/TestStudentWithDate.java,3\7\374eaad9c9257d7e78226d667517eb1664ffae64
+M
+src/main/java301/Student.java,1\3\13a1d1682d4c39af771937c6e9d19bd0597ffba1
+P
+ src/main/home021/HomeWork12.java,4\d\4df32bc1315d1c9e731556fe00f699fba270f7c8
+Q
+!src/main/java20221111/Task01.java,d\8\d847b0681e79a5136f3cafa9694ed006b31068d6
+Q
+!src/main/java20221111/Task02.java,d\6\d6f37cb5b4aeecb788233bf7060538ad28edaaa5
+Q
+!src/main/java20221118/Task01.java,9\1\9129e43ddfac3abc8f4ea355c539e780a27969d8
+P
+ src/main/home022/HomeWork01.java,6\5\657acfaf501e8a322bd3c1838b8c698855775c78
+P
+ src/main/home022/HomeWork02.java,8\5\8571e74b7edb9e0f5528974199a0fe101d2d7b9d
+P
+ src/main/home022/HomeWork03.java,f\8\f8a160dc9ecb8d072c0de2aa0e0789315364a21c
+P
+ src/main/home022/HomeWork05.java,4\6\466fc4b28bdf413be24f5260dba38d14683c103d
+P
+ src/main/home022/HomeWork10.java,0\6\063cd2b57630236f40601ca2b6c636a52a71d45b
+P
+ src/main/home022/HomeWork06.java,d\e\dec66efcc12ca127318d4d57bbd88cef001b5437
+P
+ src/main/home022/HomeWork07.java,0\7\0716da9ca58ac9a21635ede95cc813049370adea
+P
+ src/main/home022/HomeWork04.java,1\6\16e1dac7cc51c5f3e2ea6d2f26b68803aaaa089e
+O
+src/main/java20221125/Bulb.java,2\5\2591b3f16ec4d0ff67f5b3de8fe613cbc2992b8c
+a
+1src/main/java20221125/tempreture/Thermomiter.java,f\a\fa25445d20a470dfb9b23f2da69131dd6bd86d38
+P
+ src/main/java20221125/Robot.java,9\8\980c24d8194594d1849734e3cbd4d7a06db18b30
+^
+.src/main/java20221125/tempreture/TempType.java,6\3\633f6ab70f2eecddf8442981a84bbffd521f503b
+T
+$src/main/java20221125/ArrayList.java,c\e\ce2fb611b29bbe881a93436bd21a43dff9b346bc
+T
+$src/main/java20221125/Singleton.java,8\9\891cd61281a3ed4218edaf7ef814751429e4c328
+U
+%src/main/java20221125/Singleton2.java,c\9\c93af20ff274b74398b1d565ffca2c84838141ec
+V
+&src/main/java20221125/SimpleStack.java,e\4\e4614b4e651745ee0498b73c6b9cd9e331129038
+Y
+)src/main/java20221125/FieldValidator.java,7\5\75b95658e360c7597b5faa1a62e03f06080232f1
+T
+$src/main/java20221125/MainClass.java,0\0\005845b9f9474a0f81ff350d35908735c29d5a71
