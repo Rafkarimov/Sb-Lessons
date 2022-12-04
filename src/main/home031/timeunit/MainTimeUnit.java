@@ -1,4 +1,5 @@
-package main.home031;
+package main.home031.timeunit;
+
 /*
 4.	Необходимо реализовать класс TimeUnit с функционалом, описанным ниже (необходимые поля продумать самостоятельно).
 Обязательно должны быть реализованы валидации на входные параметры.
@@ -13,5 +14,16 @@ package main.home031;
 минуты и секунды).
 
  */
-public class HomeWork04 {
+
+public class MainTimeUnit {
+    public static void main(String[] args) {
+        TimeUnit timeUnit = new TimeUnit(0, 0, 0);
+        System.out.println(timeUnit);
+        System.out.println("--------------------");
+        timeUnit.addTime(0,780,0);
+        System.out.println(timeUnit);
+//        TimeUnit timeUnit1 = new TimeUnit(2);
+//        System.out.println(timeUnit1);
+//        TimeUnit timeUnit2 = new TimeUnit(1);
+    }
 }

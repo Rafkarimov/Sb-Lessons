@@ -2,8 +2,13 @@ package main.home031.amazingstring;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /*
 6.	Необходимо реализовать класс AmazingString, который хранит внутри себя строку как массив char и предоставляет
@@ -108,22 +113,62 @@ public class AmazingString {
     }
 
     public void deleteSpace() {
-        char[] copyArray = new char[0];
-        for (int i = 0; i < ch.length; i++) {
-            if (ch[i] == '\n' || ch[i] == '\t') {
-//                System.arraycopy(ch, i + 1, ch, i, ch.length - 1 - i);
-                copyArray = new char[ch.length - 1];
-                // copy elements from original array from beginning till index into copyArray
-                if (i > 0) {
-                    System.arraycopy(ch, 0, copyArray, 0, i);
-                }
-                if (copyArray.length > i) {
-                    // copy elements from original array from index+1 till end into copyArray
-                    System.arraycopy(ch, i + 1, copyArray, i, ch.length - i - 1);
-                }
+//
+//        IntStream.range(0, 10).forEach(System.out::println);
+//        //удаления через стримы
+//        ch = IntStream //интерфейс аналог форцикла
+//                .range(0, ch.length)//длина от 0 до
+//                .filter(i -> ch[i] != '\n' && ch[i] != '\t') // удаляем \n и \t
+//                .mapToObj(i -> ch[i])//из char в Character
+//                .map(Object::toString) // из Character в String
+//                .collect(Collectors.joining()) // элементы в потоке соединяются в одну строку
+//                .toCharArray(); // переделываем в массив char[]
+        //вариант решения через форцикл
+
+        //решение через копирование
+//        for (int i = 0; i < ch.length; i++) {
+//            if (ch[i] == '\n' || ch[i] == '\t') { // сперва считаем \n и \t
+//                char[] tmp = new char[ch.length - 1];
+//                // copy elements from original array from beginning till index into copyArray
+//                System.arraycopy(ch, 0, tmp, 0, i);
+//                // copy elements from original array from index+1 till end into copyArray
+//                System.arraycopy(ch, i + 1, tmp, i, ch.length - i - 1);
+//                ch = tmp;
+//                System.out.println(i + " : " + Arrays.toString(tmp));
+//                i--;
+//            }
+//        }
+        //вариант через форцикл в 2 шага
+        int count = 0;
+        for (char value : ch) {
+            if (value == '\n' || value == '\t') { // сперва считаем \n и \t
+                count++;
             }
         }
-        ch = copyArray;
+        char[] tmp = new char[ch.length - count];
+        count = 0;
+        for (char c : ch) {
+            if (c != '\n' && c != '\t') {
+                tmp[count++] = c;
+            }
+        }
+        ch = tmp;
+
+//        for (int i = 0; i < ch.length; i++) {
+//            if (ch[i] == '\n' || ch[i] == '\t') {
+////                System.arraycopy(ch, i + 1, ch, i, ch.length - 1 - i);
+//                copyArray = new char[ch.length - 1];
+//                // copy elements from original array from beginning till index into copyArray
+//                if (i > 0) {
+//                    System.arraycopy(ch, 0, copyArray, 0, i);
+//                }
+//                if (copyArray.length > i) {
+//                    // copy elements from original array from index+1 till end into copyArray
+//                    System.arraycopy(ch, i + 1, copyArray, i, ch.length - i - 1);
+//                }
+//            }
+//        }
+//        ch = copyArray;
     }
 }
 

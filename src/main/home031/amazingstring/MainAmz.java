@@ -9,11 +9,13 @@ public class MainAmz {
 //                'и', 'с', 'т', 'р', 'а', 'л', 'ь'});
 //        System.out.println(amazingString1.containsSubstring(new char[]{'м', 'а', 'г', 'и', 'с', 'т', 'р', 'а', 'л',
 //        'ь'}));
-        AmazingString amazingString1 = new AmazingString(new char[]{'v', 'e', 'r', 'y', 'g', 'o', 'o', 'd', 'i', 'a', 'm'});
-        System.out.println(amazingString1.containsSubstring(new char[]{'v', 'e', 'r', 'y', 'g', 'o', 'o', 'd', 'i', 'a', 'a', 'm'}));
+        AmazingString amazingString1 = new AmazingString(new char[]{'v', 'e', 'r', 'y', 'g', 'o', 'o', 'd', 'i',
+                'a', 'm'});
+        System.out.println(amazingString1.containsSubstring(new char[]{'v', 'e', 'r', 'y', 'g', 'o', 'o', 'd', 'i',
+                'a', 'a', 'm'}));
 
         //удаление
-        AmazingString amazingString2 = new AmazingString(new char[]{'\t', 'v', 'e', 'r', 'y', '\n', 'g', 'o', 'o', 'd', 'i', 'a', 'm'});
+        AmazingString amazingString2 = new AmazingString(new char[]{'\t', 'v', 'e', 'r', '\n', 'y'});
         amazingString2.printString();
         System.out.println("--------------------------");
         amazingString2.deleteSpace();

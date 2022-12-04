@@ -1,4 +1,7 @@
-package main.home031;
+package main.home031.atm;
+
+import java.math.BigDecimal;
+
 /*
 8.	Реализовать класс “банкомат” Atm.
 Класс должен:
@@ -10,5 +13,16 @@ package main.home031;
 этот счетчик (подсказка: реализуется через static)
 
  */
-public class HomeWork08 {
+public class MainAtm {
+    public static void main(String[] args) {
+        Atm atm = new Atm(BigDecimal.valueOf(0.02), BigDecimal.valueOf(61.77));
+        System.out.println(atm.getCounter());
+        System.out.println(atm.convertDollarToRubles(new BigDecimal(1000)) + " рублей");
+        System.out.println(atm.convertRubleToDollar(new BigDecimal(1000)) + " долларов");
+
+        for (int i = 0; i < 10; i++) {
+            atm = new Atm(BigDecimal.valueOf(0.02), BigDecimal.valueOf(61.77));
+        }
+        System.out.println(atm.getCounter());
+    }
 }

@@ -4,9 +4,6 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        //1. Cat
-//        Cat cat = new Cat();
-//        cat.status();
         //2.Student
         Student student1 = new Student("Мишка", "Косолапый");
         Student student2 = new Student("Мышка", "Нарушка");

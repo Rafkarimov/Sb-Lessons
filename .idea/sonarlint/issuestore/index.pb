@@ -308,11 +308,7 @@ P
 P
  src/main/home021/HomeWork01.java,e\a\ead49637283fc9d6d9cd5466762b10fea7e93680
 P
- src/main/home022/HomeWork08.java,1\0\100b5209745668c7698e1bdeb2d6babc763533d3
-P
  src/main/home021/TestArrays.java,2\8\280f4f9d4ee43d88fc1716cc4b6d874ab5138281
-P
- src/main/home022/HomeWork09.java,2\b\2bf8040ee70e5e60af8f0b1dd2e6d5bfaf95a4ab
 L
 src/main/java301/Circle.java,8\6\86ee9ad710e8b9cd9a35eae33e31dc6609ab695e
 U
@@ -350,8 +346,6 @@ P
 P
  src/main/home022/HomeWork05.java,4\6\466fc4b28bdf413be24f5260dba38d14683c103d
 P
- src/main/home022/HomeWork10.java,0\6\063cd2b57630236f40601ca2b6c636a52a71d45b
-P
  src/main/home022/HomeWork06.java,d\e\dec66efcc12ca127318d4d57bbd88cef001b5437
 P
  src/main/home022/HomeWork07.java,0\7\0716da9ca58ac9a21635ede95cc813049370adea
@@ -383,8 +377,6 @@ S
 #src/main/java302/TestMyString1.java,d\5\d572b343132b5923acde4c691d7e70cf7fef9287
 U
 %src/main/java302/TestBigInteger1.java,6\0\602c4071a7e20e093a14c83b349fe5b599fd9ddc
-O
-src/main/project01/Account.java,f\a\fa4060eb6eaebb4c2a9383fbfb1f9b09b7a186c5
 S
 #src/main/project01/AccountMain.java,0\2\026c82112bbddb9e299c20d81cfcae9e9c2c4e95
 P
@@ -399,29 +391,27 @@ P
  src/main/java302/TestMyTime.java,0\2\0255d92b119bbe96137bec7732c988990553373f
 b
 2src/main/project01/ComputeAmountWithSelection.java,9\a\9ae733590e6320ac94cb61531b4207321b386260
-M
-src/main/home031/cat/Cat.java,c\e\ce69ddf2f769cf14393ad89a4ef196280154c946
-R
-"src/main/home031/student/Main.java,f\1\f1e0edc25c9cd6e2e6c21dd537b7426eab9011a2
 U
 %src/main/home031/student/Student.java,5\4\548889ea0f5292161fcf91862149800fd7c82b67
 \
 ,src/main/home031/student/StudentService.java,4\c\4cc21d37fe98faeb44841ab8d060eb5c87913bee
-P
- src/main/home031/HomeWork07.java,6\b\6bbac57c34f266a938da0d42ff446fa3a662c56f
-P
- src/main/home031/HomeWork04.java,3\0\30ffe1be2648bf8f50f3bb54640ff629bb3f557d
-P
- src/main/home031/HomeWork05.java,c\9\c972e27494af711023ac418e43c70561ab5aa208
 L
 src/main/java302/Test01.java,1\2\123b8ea92342a2105200d36cefeacdfd5a6169ed
 U
 %src/main/java302/TestBigInteger4.java,0\1\018d6b5530dc093cfc1542a6801596db2e1c6959
 U
 %src/main/java302/TestBigInteger3.java,f\b\fb0b3081d6e13ba3da3a67cb70e7470e2e16197b
-P
- src/main/home031/HomeWork08.java,6\f\6f9c43c23aed8cabbb25af6ab05aae71f2f9c64f
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+:
+
+output.txt,a\d\adbe6c7d3c0d8b19ecd492bec9532c13a6e1c9ad
 a
-1src/main/home031/amazingstring/AmazingString.java,b\2\b29e874eed8ae3bef8df6154a4196f8110c5ced2
-[
-+src/main/home031/amazingstring/MainAmz.java,a\5\a593b5bc3938a1413288d492d51981484a51af44
+1src/main/java20221202/customcollection/MainQ.java,2\d\2d83f9759097d430f62fadcea5f334e847b6b5e1
+f
+6src/main/java20221202/customcollection/MainSimple.java,e\7\e7ab1ca84b2c3bbd0ae2b6a5007be0fa5f40149a
+X
+(src/main/java20221202/file/MainFile.java,6\3\63ac7646edaea942fc5c25a5266ff5cbd1a86b65
+W
+'src/main/java20221202/enams/MainEn.java,6\1\616deac91b48799b44a7022bf1205a2f900dc980

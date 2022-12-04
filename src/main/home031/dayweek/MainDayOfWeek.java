@@ -1,4 +1,8 @@
-package main.home031;
+package main.home031.dayweek;
+
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 /*
 5.	Необходимо реализовать класс DayOfWeek для хранения порядкового номера дня недели (byte) и названия
 дня недели (String).
@@ -11,5 +15,16 @@ package main.home031;
 7 Sunday
 
  */
-public class HomeWork05 {
+public class MainDayOfWeek {
+    public static void main(String[] args) {
+        DayOfWeek[] dayOfWeeksArray = new DayOfWeek[7];
+        System.arraycopy(DayOfWeek.values(), 0, dayOfWeeksArray, 0, DayOfWeek.values().length);
+//        Arrays.stream(dayOfWeeksArray) // вариант через стримы
+//                .forEach(System.out::println);
+        for (DayOfWeek dayOfWeek : dayOfWeeksArray) {
+            System.out.println(dayOfWeek);
+        }
+    }
+
+
 }
