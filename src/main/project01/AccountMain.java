@@ -1,7 +1,12 @@
 package main.project01;
-
+/*
+Напишите клиент этого класса – программу, которая создает банковский счет с годовой процентной ставкой 5,5%,
+балансом 1000 руб., id 1122 и именем Герман. Внесите на счет 300, 400 и 500 руб. и снимите со счета 500, 400 и 200 руб.
+Отобразите сводку по счету с указанием имени владельца счета, процентной ставки, баланса и всех транзакций
+ */
 import java.math.BigDecimal;
 import java.util.Scanner;
+import java.util.UUID;
 
 public class AccountMain {
     private static final Account[] accounts = new Account[10];
@@ -64,7 +69,7 @@ public class AccountMain {
 
     private static void createAccounts() {
         for (int i = 0; i < accounts.length; i++) {
-            accounts[i] = new Account(new BigDecimal(10_000));
+            accounts[i] = new Account("Герман", new BigDecimal(10_000));
         }
     }
 
