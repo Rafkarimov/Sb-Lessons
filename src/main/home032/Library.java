@@ -1,94 +1,76 @@
 package main.home032;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class Library {
-    public static final int MAXNUMBER = 10;
+    private final Set<Book> books; // РјРѕР¶РЅРѕ РґРѕР±Р°РІРёС‚СЊ = new HashSet<>();
+    private Integer counter = 0;
 
-    public static Book library [] = new Book[MAXNUMBER];
-    public static int currentNumber = 0;
-
-    public static void main(String args []){
-        for(;menu(););
-
+    public Library() {
+        books = new HashSet<>(); // РѕР±РµСЃРїРµС‡РёРІР°РµС‚ СѓРЅРёРєР°Р»СЊРЅРѕСЃС‚СЊ
     }
 
-    public static boolean menu(){
-        Scanner sc = new Scanner(System.in);
-        int decision;
-        System.out.print("\nMenu:\n" +
-                "0 - Выход.\n" +
-                "1 - Авторизовать пользователя.\n" +
-                "2 - Регистрация нового пользователя.\n" +
-                "Ваше решение: "
-        );
-        try{
-            decision = sc.nextInt();
-            if(decision < 0 || decision > 2){
-                throw new InputMismatchException();
-            }
-        }
-        catch(InputMismatchException exc){
-            System.out.println("\nНеверные данные.");
-            return true;
-        }
-        switch (decision){
-            case 0:{
-                System.out.println("\nВыход.");
-                return false;
-            }
-            case 1:{
-                try{
-                    if(MAXNUMBER == currentNumber ){
-                        throw new RuntimeException();
-                    }
-                    addBook(inputBook(sc));
-                }
-                catch(InputMismatchException exc){
-                    System.out.println("\nНеверные данные.");
-                }
-                break;
-            }
-            case 2: {
-                try{
-                    if(MAXNUMBER == currentNumber ){
-                        throw new RuntimeException();
-                    }
-                    addBook(inputBook(sc));
-                }
-                catch(InputMismatchException exc){
-                    System.out.println("\nНеверные данные.");
+    public void addBook(Book book) {
+        books.add(book);
+    }
+
+    public void deleteBook(String title) {
+        for (Book book : books) {
+            if (book.getTitle().equals(title)) {
+                if (!book.isBorrowed()) {
+                    books.remove(book);
                 }
                 break;
             }
         }
-        return true;
     }
 
-    public static void addBook(Book tempBook){
-        library[currentNumber] = tempBook;
-        ++currentNumber;
-    }
-
-    public static Book inputBook(Scanner sc){
-        sc.nextLine();
-        System.out.print("Автор книги: ");
-        String tempAuthor = sc.nextLine();
-        System.out.print("Название книги: ");
-        String tempTitle = sc.nextLine();
-        return new Book(tempAuthor, tempTitle);
-    }
-
-    public static void showBooks(){
-        if(0 == currentNumber){
-            System.out.println("\nВ библиотеке нет книг.");
-        }
-        else{
-            System.out.println("\nСписок книг:");
-            for(int i = 0; i < currentNumber; ++i){
-                System.out.println(library[i]);
+    public Book findBook(String title) {
+        for (Book book : books) {
+            if (book.getTitle().equals(title)) {
+                return book;
             }
         }
+        return null;
+    }
+
+    public Set<Book> findBooksByAuthor(String author) {
+        Set<Book> tmp = new HashSet<>();
+        for (Book book : books) {
+            if (book.getAuthor().equals(author)) {
+                tmp.add(book);
+            }
+        }
+        return tmp;
+    }
+
+    public void borrowBook(String title, Visitor visitor) {
+        Book book = findBook(title);
+        // СЂРµР°Р»РёР·СѓРµРј РїСЂРѕРІРµСЂРєСѓ, 1. РєРЅРёРіР° РµСЃС‚СЊ РІ Р±РёР±Р»РёРѕС‚РµРєРµ, 2. РєРЅРёРіР° РЅРµ РѕРґРѕР»Р¶РµРЅР° РїРѕСЃРµС‚РёС‚РµР»СЋ, 3. С‡С‚Рѕ Сѓ РїРѕСЃРµС‚РёС‚РµР»СЏ РЅРµС‚ РєРЅРёРіРё
+        if (book != null && !book.isBorrowed() && visitor.getBook() == null) {
+            if (visitor.getId() == null) {
+                visitor.setId(++counter);
+            }
+            book.setBorrowed(true);
+            visitor.setBook(book);
+        }
+    }
+
+    public void returnBook(Book book, Visitor visitor) {
+        if (visitor.getBook().equals(book)) {
+            book.setBorrowed(false);
+            book.addRating(visitor.getRating()); //
+            visitor.setBook(null);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return books.stream() // books СЃРѕР·РґР°РµРј РїРѕС‚РѕРє РІ Book РІ РІРёРґРµ СЃС‚СЂРѕРєРё Рё С‡РµСЂРµР· РїРµСЂРµРЅРѕСЃ, РІСЃРµ СЌС‚Рѕ С‡С‚РѕР± Р±С‹Р» РїРµСЂРµРЅРѕСЃ
+                // РїРѕ СЃС‚СЂРѕРєР°Рј
+                .map(Book::toString)
+                .collect(Collectors.joining("\n"));
     }
 }

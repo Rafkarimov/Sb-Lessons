@@ -1,10 +1,14 @@
 package main.home032;
-/*
-Реализовать программу по ведению лог файла. Принимаем сведения из файла "listOfBook"
- */
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 public class Book {
-    private String author;
-    private String title;
+    private final String author;
+    private final String title;
+    private boolean isBorrowed = false; // РєР°Рє Р»СѓС‡С€Рµ С‚СѓС‚ РёР»Рё РІ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРµ
+    private List<Integer> ratings = new ArrayList<>();
 
     public Book(String author, String title) {
         this.author = author;
@@ -17,5 +21,52 @@ public class Book {
 
     public String getTitle() {
         return title;
+    }
+
+    public boolean isBorrowed() {
+        return isBorrowed;
+    }
+
+    public void setBorrowed(boolean borrowed) {
+        isBorrowed = borrowed;
+    }
+
+    public void addRating(int rating) {
+        ratings.add(rating);
+    }
+
+    public double getAverageRating() {
+        //РґРµР»Р°РµРј С‡РµСЂРµР· СЃС‚СЂРёРјС‹
+//        return ratings.stream()
+//                .mapToInt(Integer::intValue)
+//                .average().orElse(0D); // РµСЃР»Рё РїСѓСЃС‚РѕР№ Р»РёСЃС‚ РЅРµС‚ РѕС†РµРЅРѕРє - 0
+        //РІС‚РѕСЂРѕР№ РІР°СЂРёР°РЅС‚ Р§РµСЂРµР· for С†РёРєР»
+        double sum = 0D;
+        for (Integer rating : ratings) {
+            sum += rating;
+        }
+        return Math.round((sum / ratings.size()) * 10) / 10D; // РґСЂСѓРіРѕР№ РІРёРґ Р·Р°РїРёСЃРё
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return title.equals(book.title);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(title);
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                ", isBorrowed=" + isBorrowed +
+                '}';
     }
 }
