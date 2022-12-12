@@ -43,8 +43,6 @@ X
 (src/main/java20221028/regexp/Task01.java,3\e\3e752d3fff5653b9ee1849b518f7a7123aa5fa18
 P
  src/main/home013/HomeWork01.java,1\b\1b90cf6df3aebd4fbe4bc9f340acfea0beb21452
-P
- src/main/home013/HomeWork10.java,1\d\1d65ece1f3695af71dce55bec4b6936c08275161
 Y
 )src/main/java20221028/BasicKnowledge.java,f\e\fe768975b9100e67cb84c0a08fa6701d5e0d2375
 P
@@ -243,8 +241,6 @@ Q
 !src/main/java20221111/Task06.java,1\c\1cf8f10863e2e50ccfbe522194bd14992659a934
 P
  src/main/home021/HomeWork04.java,f\d\fdfa00b7044b32911cb6d3145cbf219147523726
-Q
-!src/main/home021/HomeWork041.java,2\5\252239b4826a82d327cd0f569962bed248870660
 P
  src/main/home021/HomeWork06.java,a\0\a0c5897ac706d6e95ab8b1ff752bebc172efb4ee
 P
@@ -307,8 +303,6 @@ P
  src/main/home021/HomeWork03.java,7\b\7bfec79eebbcb3fe992ee4412d7308542d3bf6d0
 P
  src/main/home021/HomeWork01.java,e\a\ead49637283fc9d6d9cd5466762b10fea7e93680
-P
- src/main/home021/TestArrays.java,2\8\280f4f9d4ee43d88fc1716cc4b6d874ab5138281
 L
 src/main/java301/Circle.java,8\6\86ee9ad710e8b9cd9a35eae33e31dc6609ab695e
 U
@@ -338,8 +332,6 @@ Q
 Q
 !src/main/java20221118/Task01.java,9\1\9129e43ddfac3abc8f4ea355c539e780a27969d8
 P
- src/main/home022/HomeWork01.java,6\5\657acfaf501e8a322bd3c1838b8c698855775c78
-P
  src/main/home022/HomeWork02.java,8\5\8571e74b7edb9e0f5528974199a0fe101d2d7b9d
 P
  src/main/home022/HomeWork03.java,f\8\f8a160dc9ecb8d072c0de2aa0e0789315364a21c
@@ -347,8 +339,6 @@ P
  src/main/home022/HomeWork05.java,4\6\466fc4b28bdf413be24f5260dba38d14683c103d
 P
  src/main/home022/HomeWork06.java,d\e\dec66efcc12ca127318d4d57bbd88cef001b5437
-P
- src/main/home022/HomeWork07.java,0\7\0716da9ca58ac9a21635ede95cc813049370adea
 P
  src/main/home022/HomeWork04.java,1\6\16e1dac7cc51c5f3e2ea6d2f26b68803aaaa089e
 a
@@ -377,10 +367,6 @@ S
 #src/main/java302/TestMyString1.java,d\5\d572b343132b5923acde4c691d7e70cf7fef9287
 U
 %src/main/java302/TestBigInteger1.java,6\0\602c4071a7e20e093a14c83b349fe5b599fd9ddc
-P
- src/main/home021/HomeWork12.java,4\d\4df32bc1315d1c9e731556fe00f699fba270f7c8
-O
-src/main/java20221125/Bulb.java,2\5\2591b3f16ec4d0ff67f5b3de8fe613cbc2992b8c
 T
 $src/main/java20221125/Singleton.java,8\9\891cd61281a3ed4218edaf7ef814751429e4c328
 V
@@ -503,5 +489,17 @@ Z
 *src/main/java303/testarraylist/Circle.java,c\8\c80ce10eb37082400aa25d739e0a13c4a492474b
 U
 %src/main/project01/AccountClient.java,0\e\0e947ce9558c74adafacd1e5bcc56ea7ab4fdd0b
-J
-src/main/home032/Test.java,0\4\04edf8264fc2b211abaafd5264447a924289da42
+B
+src/listOfBook.txt,d\f\dfa47523ee40a8cfd0944f621c4b139190b63716
+P
+ src/main/home021/HomeWork11.java,f\c\fc0f7654cca7e20e01b6a7899872a1fed74c033b
+P
+ src/main/home021/HomeWork10.java,3\8\3873194087f4a5cb43cdc44803736ba4357f06da
+Q
+!src/main/home021/HomeWork041.java,2\5\252239b4826a82d327cd0f569962bed248870660
+P
+ src/main/home021/TestArrays.java,2\8\280f4f9d4ee43d88fc1716cc4b6d874ab5138281
+P
+ src/main/home021/HomeWork12.java,4\d\4df32bc1315d1c9e731556fe00f699fba270f7c8
+P
+ src/main/home013/HomeWork10.java,1\d\1d65ece1f3695af71dce55bec4b6936c08275161
