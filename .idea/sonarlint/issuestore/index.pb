@@ -570,3 +570,15 @@ V
 -src/main/home033/bestcarpenterever/Table.java,5\1\516d1b1d30b8c0bde62e38480ba54a1a928caa19
 b
 2src/main/java20221209/factory/VanillaIceCream.java,e\3\e3737a23823e70c3a2c8fc777adc699546635bdd
+e
+5src/main/home033/beautycontest/MainBeautyContest.java,e\3\e3624ed86cf4f85e30f9595f93e8095a6edfbe54
+W
+'src/main/home033/beautycontest/Dog.java,8\9\891b549a584de470cace03bf0d657c1de575be1f
+\
+,src/main/home033/beautycontest/DogOwner.java,6\9\6941b6b85fd0b72b3f4bced80775f1d4075ab539
+`
+0src/main/home033/beautycontest/RatingSystem.java,b\7\b720960edf2156b9992eba9f0fb071b471fef1c6
+9
+	Questions,9\a\9a1fc1731f624d1f9dbca42b781ff8a60a6594e1
+X
+(src/main/java402dop/GeometricObject.java,2\8\287cc306f295a66577ed2dad4cabb3da697b8878
