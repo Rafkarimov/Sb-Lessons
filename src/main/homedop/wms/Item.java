@@ -4,46 +4,12 @@ import main.homedop.pos.Order;
 
 import java.math.BigDecimal;
 
-public class Item extends Order implements Bought, ForSale {
-    private String productName; // наименование товара
-    private BigDecimal priceOfUnitOfGoods; // цена товара
-    private Integer quantityOfGoods; // количество товара
+public class Item {
+    private final Product product; // наименование товара
+    private final BigDecimal priceOfUnitOfGoods; // цена товара
 
-    //Создаем конструктор для 2 позиций
-    public Item(String productName, BigDecimal priceOfUnitOfGoods) {
-        this.productName = productName;
+    public Item(Product product, BigDecimal priceOfUnitOfGoods) {
+        this.product = product;
         this.priceOfUnitOfGoods = priceOfUnitOfGoods;
-        this.quantityOfGoods = quantityOfGoods;
-    }
-
-    public String getProductName() {
-        return productName;
-    }
-
-    public BigDecimal getPriceOfUnitOfGoods() {
-        return priceOfUnitOfGoods;
-    }
-
-    public Integer getQuantityOfGoods() {
-        return quantityOfGoods;
-    }
-
-    @Override
-    public void buy() {
-
-    }
-
-    @Override
-    public void sale() {
-
-    }
-
-    @Override
-    public String toString() {
-        return "Item{" +
-                "productName='" + productName + '\'' +
-                ", priceOfUnitOfGoods=" + priceOfUnitOfGoods +
-                ", quantityOfGoods=" + quantityOfGoods +
-                '}';
     }
 }
