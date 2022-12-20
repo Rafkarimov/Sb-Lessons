@@ -14,6 +14,14 @@ public class Item {
         this.priceOfUnitOfGoods = priceOfUnitOfGoods;
     }
 
+    public Product getProduct() {
+        return product;
+    }
+
+    public BigDecimal getPriceOfUnitOfGoods() {
+        return priceOfUnitOfGoods;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
