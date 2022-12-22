@@ -35,7 +35,7 @@ public class Program {
         System.out.println("--------------------------------------------");
 
         Order order2 = new Order();
-        order2.addItemAndQuantity(item1, 9);
+        order2.addItemAndQuantity(item1, 11);
         stock.dispatch(order2);
         System.out.println(stock);
         System.out.println("------------------------------------------");
