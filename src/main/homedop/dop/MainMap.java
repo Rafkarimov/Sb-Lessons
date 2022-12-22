@@ -33,12 +33,13 @@ public class MainMap {
         list.add("авиабомба");
         list.add("даба");
 
-        for (String item: list) {
-
-            if (wordsStartingWithLettersMap.containsKey(item))
-                wordsStartingWithLettersMap.put(item, wordsStartingWithLettersMap.get(item) + 1);
-            else
-                wordsStartingWithLettersMap.put(item, 1);
+        for (String item : list) {
+            String meaning = Character.toString(item.charAt(0));
+            if (wordsStartingWithLettersMap.containsKey(meaning.substring(0, 1))) {
+                wordsStartingWithLettersMap.put(meaning, wordsStartingWithLettersMap.get(meaning) + 1);
+            } else {
+                wordsStartingWithLettersMap.put(meaning, 1);
+            }
         }
         System.out.println(wordsStartingWithLettersMap);
 
