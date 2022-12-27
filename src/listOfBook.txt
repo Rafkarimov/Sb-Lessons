@@ -19,5 +19,11 @@
 -Dconsole.encoding=UTF-8
 -Dfile.encoding=UTF-8
 
+1.Создать словарь в текстовом виде, слова.
+2.Считать все это в память и записать построчно в Map
+
+1. Найти большой текст
+2.
+
 # custom IntelliJ IDEA VM options (expand/override 'bin\idea64.exe.vmoptions')
 

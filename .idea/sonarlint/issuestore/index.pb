@@ -673,17 +673,17 @@ a
 1src/main/home031/amazingstring/AmazingString.java,b\2\b29e874eed8ae3bef8df6154a4196f8110c5ced2
 M
 src/main/home032/Library.java,4\e\4e82d8421c43c005b735cf394b525224540e4729
-O
-src/main/homedop/wms/Stock.java,b\e\bef7b1e96d78717c7c3d08a61d90b9113e99d31f
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+O
+src/main/homedop/wms/Stock.java,b\e\bef7b1e96d78717c7c3d08a61d90b9113e99d31f
 N
 src/main/homedop/wms/Item.java,f\d\fd25c670d3d1acf88f8daf2b9454eb3afaaad5cf
+Q
+!src/main/homedop/wms/Product.java,2\b\2b1961ff4cf409cd10d1a7d19d579c4a3487dd3d
 O
 src/main/homedop/pos/Order.java,9\0\900853f5eb671a08041df5a96c0896827d872f4f
 M
 src/main/homedop/Program.java,e\2\e2b7c7a1d9164edc6060f3821f48ba392efcaf8e
 M
 src/main/homedop/TestMap.java,4\1\41b519d5547119d550c6eda73d903ab893467b4c
-Q
-!src/main/homedop/wms/Product.java,2\b\2b1961ff4cf409cd10d1a7d19d579c4a3487dd3d

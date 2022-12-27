@@ -24,30 +24,43 @@ public class MainMap {
         Map<String, Integer> wordsStartingWithLettersMap = new HashMap<>();
         Map<Integer, Integer> wordsByLengthMap = new HashMap<>();
 
-//        List<String> list = new ArrayList<>();
-//        list.add("даба");
-//        list.add("даба");
-//        list.add("ворожба");
-//        list.add("разведслужба");
-//        list.add("дамба");
-//        list.add("даба");
-//        list.add("авиабомба");
-//        list.add("даба");
-//
+        List<String> list = new ArrayList<>();
+        list.add("даба");
+        list.add("даба");
+        list.add("ворожба");
+        list.add("разведслужба");
+        list.add("дамба");
+        list.add("даба");
+        list.add("авиабомба");
+        list.add("даба");
+
 //        for (String item : list) {
-//            String meaning = Character.toString(item.charAt(0));
-//            if (wordsStartingWithLettersMap.containsKey(meaning.substring(0, 1))) {
+//            String meaning = item.substring(0, 1);
+////                    Character.toString(item.charAt(0));
+//            if (wordsStartingWithLettersMap.containsKey(meaning)) {
 //                wordsStartingWithLettersMap.put(meaning, wordsStartingWithLettersMap.get(meaning) + 1);
 //            } else {
 //                wordsStartingWithLettersMap.put(meaning, 1);
 //            }
+//            int lineLength = item.length();
+//            if (wordsByLengthMap.containsKey(lineLength)) {
+//                wordsByLengthMap.put(lineLength, wordsByLengthMap.get(lineLength) + 1);
+//            } else {
+//                wordsByLengthMap.put(lineLength, 1);
+//            }
 //        }
 //        System.out.println(wordsStartingWithLettersMap);
+//        System.out.println(wordsByLengthMap);
 //
-//        for (String item : list) {
-//
-//        }
+//        wordsStartingWithLettersMap.entrySet().stream()
+//                .sorted(Map.Entry.comparingByKey())
+//                .forEach(System.out::println);
+//        System.out.println("------------------------------------");
+//        wordsByLengthMap.entrySet().stream()
+//                .sorted(Map.Entry.comparingByKey())
+//                .forEach(System.out::println);
 
+        //почитать entrySet
         //Класс Files содержит статические методы для работы с файлами и каталогами. Полезный метод - lines() который
         // возвращает поток строк: Stream<String> . Из этого потока можно получить строки, содержащиеся в файле.
         //Метод принимает Path к файлу, который мы хотели бы прочитать, с необязательной Charset . Мы будем использовать
@@ -60,8 +73,33 @@ public class MainMap {
 
         try (Stream<String> stream = Files.lines(path)) {
             stream.forEach((String word) -> {
-
+                if (word.length() > 1) {
+                    if (word.startsWith("-")) {
+                        System.out.println("---------------+------------------");
+                        System.out.println(word);
+                    }
+                    String meaning = word.substring(0, 1);
+                    if (wordsStartingWithLettersMap.containsKey(meaning)) {
+                        wordsStartingWithLettersMap.put(meaning, wordsStartingWithLettersMap.get(meaning) + 1);
+                    } else {
+                        wordsStartingWithLettersMap.put(meaning, 1);
+                    }
+                    int lineLength = word.length();
+                    if (wordsByLengthMap.containsKey(lineLength)) {
+                        wordsByLengthMap.put(lineLength, wordsByLengthMap.get(lineLength) + 1);
+                    } else {
+                        wordsByLengthMap.put(lineLength, 1);
+                    }
+                }
             });
+
+            wordsStartingWithLettersMap.entrySet().stream()
+                    .sorted(Map.Entry.comparingByKey())
+                    .forEach(System.out::println);
+            System.out.println("------------------------------------");
+            wordsByLengthMap.entrySet().stream()
+                    .sorted(Map.Entry.comparingByKey())
+                    .forEach(System.out::println);
 
         } catch (IOException e) {
             e.printStackTrace();
