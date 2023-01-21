@@ -1,19 +1,20 @@
 package main.java20230114.task9;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     static class Item {
-
+        public String itemField;
     }
 
     static class Book extends Item {
         String name;
     }
 
-    static class Phone extends Item {
-        String model;
+    public static class Phone extends Item implements Cloneable, Serializable {
+        private String model;
     }
 
     //PECS
@@ -36,4 +37,5 @@ public class Main {
 //        copy(items, books); //ошибка
     }
 }
+
 

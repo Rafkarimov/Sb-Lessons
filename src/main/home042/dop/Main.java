@@ -25,7 +25,7 @@ public class Main {
         String[] words = new String[]{"the", "day", "is", "sunny", "the", "the", "the",
                 "sunny", "is", "is", "day"};
         int k = 4;
-        String[] result = groupAndSortWord(words, k);
+        String[] result = groupAndSortWord1(words, k);
         System.out.println("RESULT");
         System.out.println(Arrays.toString(result));
         System.out.println();
