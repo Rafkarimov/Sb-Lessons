@@ -29,7 +29,7 @@ public class Main {
         } catch (IllegalAccessException ex) {
             System.out.println("The method access modifiers forbid calling it");
         } catch (IllegalArgumentException ex) {
-            System.out.println("Incorrect arguments given");
+            System.out.println("Incorrect arguments given"); // количество
         } catch (InvocationTargetException ex) {
             System.out.println("The method has thrown an exception");
         } catch (InstantiationException ex) {

@@ -11,9 +11,16 @@ import java.util.Objects;
  */
 public class MainAPrinter {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
-        Method aPrinterMethod = APrinter.class.getMethod("print", int.class);
-        APrinter aPrinter = new APrinter();
-        aPrinterMethod.invoke(aPrinter, 1112312312); //зачем проверять, если передается любое подходящее число.
-        // Что значит любое?
+        try {
+            Method aPrinterMethod = APrinter.class.getMethod("print", int.class);
+            APrinter aPrinter = new APrinter();
+            aPrinterMethod.invoke(aPrinter, 1112312312); //зачем проверять, если передается любое подходящее число.
+        } catch (NoSuchMethodException ex) {
+            System.out.println("No such method");
+        } catch (IllegalArgumentException ex) {
+            System.out.println("Incorrect arguments given"); // количество
+        } catch (InvocationTargetException ex) {
+            System.out.println("The method has thrown an exception");
+        }
     }
 }
