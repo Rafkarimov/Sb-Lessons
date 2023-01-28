@@ -14,14 +14,12 @@ public class LoggingService {
             if (m.getName().equals(methodName)) {
                 ToBeLogged a = m.getAnnotation(ToBeLogged.class);
                 switch (a.logLevel()) {
-                    case INFO:
-                        writeToDebugLog("[INFO] Logging method " + m.getName() + " at time: " + LocalDateTime.now());
-                        break;
-                    case DEBUG:
-                        writeToDebugLog("[DEBUG] Logging method " + m.getName() + " at time: " + LocalDateTime.now());
-                        break;
-                    case ERROR:
-                        writeToErrorLog("[ERROR] Logging method " + m.getName() + " at time: " + LocalDateTime.now());
+                    case INFO ->
+                            writeToDebugLog("[INFO] Logging method " + m.getName() + " at time: " + LocalDateTime.now());
+                    case DEBUG ->
+                            writeToDebugLog("[DEBUG] Logging method " + m.getName() + " at time: " + LocalDateTime.now());
+                    case ERROR ->
+                            writeToErrorLog("[ERROR] Logging method " + m.getName() + " at time: " + LocalDateTime.now());
                 }
                 return;
             }

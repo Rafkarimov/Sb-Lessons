@@ -10,9 +10,14 @@ import main.home043.IsLike.IsLike;
  */
 public class Task02 {
     public static void main(String[] args) {
-        Class<ClassIsLike> likeClass = ClassIsLike.class;
-        if (!likeClass.isAnnotationPresent(IsLike.class)) return;
-        IsLike isLike = likeClass.getAnnotation(IsLike.class);
+        ClassIsLike target = new ClassIsLike();
+        Class<?> targetClass = target.getClass();
+        if (!targetClass.isAnnotationPresent(IsLike.class)) {
+            System.out.println("Аннотации нет!");
+        } else {
+            System.out.println("Аннотация есть!");
+        }
+        IsLike isLike = targetClass.getAnnotation(IsLike.class);
         System.out.println(isLike.count());
     }
 }

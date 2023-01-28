@@ -1,4 +1,4 @@
-package main.home043;
+package main.home043.aprinter;
 /*
 Есть класс APrinter:
 public class APrinter {
