@@ -1,5 +1,7 @@
 package main.home043;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 /*
@@ -27,7 +29,9 @@ public class TaskDop02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        System.out.println(correctBracketSequence(input));
+        System.out.println("первый вариант решения задания: " + correctBracketSequence(input));
+        System.out.println("---------------------");
+        System.out.println("второй вариант решения задания: " + correctBracketSequence1(input));
     }
 
     private static boolean correctBracketSequence(String input) {
@@ -37,5 +41,24 @@ public class TaskDop02 {
                     .replaceAll("\\{\\}", "");
         }
         return (input.length() == 0);
+    }
+
+    private static boolean correctBracketSequence1(String input) { // второй вариант решения
+        Deque<Character> deque = new LinkedList<>();
+        for (char ch: input.toCharArray()) {
+            if (ch == '{' || ch == '[' || ch == '(') {
+                deque.addFirst(ch);
+            } else {
+                if (!deque.isEmpty()
+                        && ((deque.peekFirst() == '{' && ch == '}')
+                        || (deque.peekFirst() == '[' && ch == ']')
+                        || (deque.peekFirst() == '(' && ch == ')'))) {
+                    deque.removeFirst();
+                } else {
+                    return false;
+                }
+            }
+        }
+        return deque.isEmpty();
     }
 }
