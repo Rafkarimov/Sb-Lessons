@@ -3,6 +3,7 @@ package main.home044;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /*
 На вход подается две строки.
@@ -48,16 +49,30 @@ public class Task7 {
         return count == 1;
     }
 
+//    private static boolean canAddOrDeleterLetter(String longStr, String shortStr) {
+//        List<String> longList = Arrays.stream(longStr.split("")).toList();
+//        List<String> shortList = Arrays.stream(shortStr.split("")).toList();
+//        long count = IntStream.range(0, longStr.length())
+//                .filter((int i) -> {
+//                    List<String> tmp = new ArrayList<>(longList);
+//                    tmp.remove(i);
+//                    return tmp.equals(shortList);
+//                })
+//                .count();
+//        return count == 1;
+//    }
+
     private static boolean canAddOrDeleterLetter(String longStr, String shortStr) {
         List<String> longList = Arrays.stream(longStr.split("")).toList();
         List<String> shortList = Arrays.stream(shortStr.split("")).toList();
-        long count = IntStream.range(0, longStr.length())
-                .filter((int i) -> {
-                    List<String> tmp = new ArrayList<>(longList);
-                    tmp.remove(i);
-                    return tmp.equals(shortList);
-                })
-                .count();
-        return count == 1;
+        for (int i = 0; i < longList.size(); i++) {
+            List<String> tmp = Stream.concat(longList.subList(0, i).stream(), longList.subList(i + 1, longList.size())
+                    .stream()).toList();
+            if (tmp.equals(shortList)) {
+                return true;
+            }
+        }
+        return false;
     }
 }
+
