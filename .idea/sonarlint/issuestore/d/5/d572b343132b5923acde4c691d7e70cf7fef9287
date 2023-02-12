@@ -1,0 +1,10 @@
+
+\
+java:S2259X"AA "NullPointerException" could be thrown; "obj" is nullable here.(•Û×’ýÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ãû¦Ù
+S	java:S106"9Replace this use of System.out or System.err by a logger.( ïßøÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ÆòèS
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÎŒÄ¼üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(²øÒ‘
+p
+java:S1201W"UEither override Object.equals(Object), or rename the method to prevent any confusion.(‘­Èµøÿÿÿÿ

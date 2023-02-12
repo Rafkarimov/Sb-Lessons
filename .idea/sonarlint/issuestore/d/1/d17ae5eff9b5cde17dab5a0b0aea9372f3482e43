@@ -1,0 +1,10 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(¸¥¤Åùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ì°¡Ë
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ã‹Ü
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ã‹Ü
+?
+java:S2140'")Use "java.util.Random.nextInt()" instead.(«õ­Æ
+?
+java:S2140(")Use "java.util.Random.nextInt()" instead.(Š¤

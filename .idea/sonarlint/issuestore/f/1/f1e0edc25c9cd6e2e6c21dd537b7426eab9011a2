@@ -1,0 +1,11 @@
+
+a
+java:S1854"?Remove this useless assignment to local variable "bestStudent".(¨Í‰Åøÿÿÿÿ8„ƒŞ§Ì0
+]	java:S125"<This block of commented-out lines of code should be removed.(·ªÌ„úÿÿÿÿ8”À¨Ì0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Î—™ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Î—™ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¡”óşÿÿÿÿ
+R
+java:S1481"0Remove this unused "bestStudent" local variable.(¨Í‰Åøÿÿÿÿ8ŠƒŞ§Ì0
+X	java:S125"<This block of commented-out lines of code should be removed.(êûÏ8‹ƒŞ§Ì0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(„íí8ÕÛ§Ì0

@@ -1,0 +1,6 @@
+
+2
+java:S1700"Rename field "password"(γλ­ϊÿÿÿÿ
+i	java:S116"ORename this field "SALT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Έ¶Ωÿÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(Έ¶Ωÿÿÿÿÿ

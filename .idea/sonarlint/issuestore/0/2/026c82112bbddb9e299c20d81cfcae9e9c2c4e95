@@ -1,0 +1,18 @@
+
+`	java:S112i"FDefine and throw a dedicated exception instead of using a generic one.(ï¦øüıÿÿÿÿ
+œ
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²šâÙúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ­ã
+N	java:S106"9Replace this use of System.out or System.err by a logger.(÷•à©
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(¿È¦
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ÿëĞùÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(ü•àÑ
+V	java:S1256"<This block of commented-out lines of code should be removed.(ïÊÂÃûÿÿÿÿ
+V	java:S1259"<This block of commented-out lines of code should be removed.(‘“¸…ûÿÿÿÿ
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(Û¬ñĞÿÿÿÿÿ
+M
+java:S6126W"2Replace this String concatenation with Text block.(ÃÔ•Şıÿÿÿÿ
+M
+java:S1128	"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8æèÉÎ0
+J
+java:S1144_"/Remove this unused private "menuAction" method.(²šâÙúÿÿÿÿ

@@ -1,0 +1,11 @@
+
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(…ü™Í
+V	java:S125I"<This block of commented-out lines of code should be removed.(®í¬ãøÿÿÿÿ
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(¨³Ë
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(ûˆøü
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(Œ€ÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(î°Ž8ðÿàÜÊ0
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ó¬áÜÊ0
+J
+java:S1144["/Remove this unused private "printArray" method.(²É´Äùÿÿÿÿ

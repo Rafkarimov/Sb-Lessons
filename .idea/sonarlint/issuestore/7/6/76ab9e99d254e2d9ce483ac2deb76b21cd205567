@@ -1,0 +1,11 @@
+
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(âö×½8ıÆü¶Ñ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8şÆü¶Ñ0
+F
+java:S2129"$Remove this "BigInteger" constructor(Â»äÿÿÿÿÿ8Çü¶Ñ0
+A
+java:S2129"$Remove this "BigInteger" constructor(ØªŠ¢8Çü¶Ñ0
+F
+java:S2129"$Remove this "BigInteger" constructor(Ò¾£Áüÿÿÿÿ8Çü¶Ñ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(îìÜ•ùÿÿÿÿ8‚Çü¶Ñ0

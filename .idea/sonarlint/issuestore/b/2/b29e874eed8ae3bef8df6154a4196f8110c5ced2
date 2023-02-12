@@ -1,0 +1,20 @@
+
+7
+java:S1643@"Use a StringBuilder instead.(–ßì²ùÿÿÿÿ
+M	java:S106B"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+V	java:S125X"<This block of commented-out lines of code should be removed.(Ãª§ıÿÿÿÿ
+Q	java:S125\"<This block of commented-out lines of code should be removed.(ê‡ø
+Q	java:S125u"<This block of commented-out lines of code should be removed.(àû ×
+W	java:S125"<This block of commented-out lines of code should be removed.(ü¼ÉÛúÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(ü¼ÉÛúÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+S
+java:S1128
+"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
+R
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ

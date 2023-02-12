@@ -1,0 +1,7 @@
+
+T	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+R	java:S125•"<This block of commented-out lines of code should be removed.( ÷Ë
+F
+java:S1128 "+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ
+a
+java:S1128!"FRemove this unused import 'java.util.concurrent.atomic.AtomicInteger'.(¿êäœøÿÿÿÿ

@@ -1,0 +1,10 @@
+
+>
+java:S1604"(Make this anonymous inner class a lambda(Ø¶ ™
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÏ¨®
+Q	java:S125"<This block of commented-out lines of code should be removed.(À¨•Ü
+V	java:S125"<This block of commented-out lines of code should be removed.(‡×Øýþÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(»œ’Ù
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¿Ÿéëÿÿÿÿÿ
+7
+java:S1110""!Remove these useless parentheses.(–Ÿ½

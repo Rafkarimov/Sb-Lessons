@@ -1,0 +1,11 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÉ”Ãüÿÿÿÿ
+?
+java:S2129"$Remove this "BigInteger" constructor(ÙÉ”Ãüÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÁÜ7
+?
+java:S2129%"$Remove this "BigInteger" constructor(ºşçíşÿÿÿÿ
+?
+java:S2129)"$Remove this "BigInteger" constructor(ò¤§òùÿÿÿÿ
+?
+java:S2129+"$Remove this "BigInteger" constructor(²üĞäşÿÿÿÿ

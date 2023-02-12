@@ -1,0 +1,8 @@
+
+[
+java:S2095 "EUse try-with-resources or close this "Scanner" in a "finally" clause.(Ðˆ„æ
+^
+java:S2095'"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(”²™ã
+7
+java:S1116"Remove this empty statement.(Åñ­õþÿÿÿÿ
+V	java:S1251"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ

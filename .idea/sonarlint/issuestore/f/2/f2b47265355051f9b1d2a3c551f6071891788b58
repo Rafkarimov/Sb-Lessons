@@ -1,0 +1,8 @@
+
+S
+java:S1854"8Remove this useless assignment to local variable "bmi3".(‚ã²Àşÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ´ñö8ßÙ¦úË0
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(Ü»ùß8àÙ¦úË0
+K
+java:S1481")Remove this unused "bmi3" local variable.(‚ã²Àşÿÿÿÿ8áÙ¦úË0

@@ -1,0 +1,16 @@
+
+2
+java:S1643P"Use a StringBuilder instead.(àİ±
+Q	java:S125,"<This block of commented-out lines of code should be removed.(ïõ¢â
+S	java:S106."9Replace this use of System.out or System.err by a logger.(¦¾»¢üÿÿÿÿ
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(‘´›Ÿ8Şø©É0
+]	java:S1253"<This block of commented-out lines of code should be removed.(€Œ„şÿÿÿÿ8Ã¬ı©É0
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(¦¾»¢üÿÿÿÿ8‘Òø©É0
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(°ÚŸ¾şÿÿÿÿ8›…ú©É0
+X	java:S125I"<This block of commented-out lines of code should be removed.(¤ÄÉ‰8Şø©É0
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(ŒÍÂüÿÿÿÿ8Ä¬ı©É0
+Q	java:S125X"<This block of commented-out lines of code should be removed.(¯îù÷
+Q
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8„Ğü©É0
+P
+java:S1128".Remove this unused import 'java.time.Instant'.(Â‚éñÿÿÿÿÿ8èı©É0
